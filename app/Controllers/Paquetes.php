@@ -2,6 +2,10 @@
 namespace App\Controllers;
 
 class Paquetes extends BaseController {
+	public function __construct()
+    {
+        $this->paquetes = new PaquetesModel();
+    }
 	public function index()
 	{
 		$data = array(
