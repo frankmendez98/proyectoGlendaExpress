@@ -1,0 +1,101 @@
+CRITICAL - 2021-11-18 08:15:18 --> Invalid file: clientes/admin.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/admin....')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('clientes/admin', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('clientes/admin', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(42): layout('clientes/admin', Array, Array, Object(App\Controllers\Clientes))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-18 08:23:29 --> Too few arguments to function App\Models\ClientesModel::get_collection(), 0 passed in /var/www/html/proyectoModulo6/app/Controllers/Clientes.php on line 17 and exactly 6 expected
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(17): App\Models\ClientesModel->get_collection()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 08:24:54 --> Trying to get property 'id' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 21, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 08:25:04 --> Undefined index: id
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/p...', 21, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 08:27:39 --> Trying to get property 'id' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 21, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 08:33:59 --> Trying to get property 'id' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 22, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 09:00:11 --> Undefined variable: clientes
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 38, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->create()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-18 09:00:32 --> Undefined variable: clientes
+#0 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 38, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->create()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+ERROR - 2021-11-18 09:12:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-18 09:12:55 --> Unknown column 'created_at' in 'field list'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cl...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(54): CodeIgniter\BaseModel->save(Array)
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->store()
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+ERROR - 2021-11-18 09:14:57 --> Column 'nombre' cannot be null
+CRITICAL - 2021-11-18 09:14:57 --> Column 'nombre' cannot be null
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cl...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /var/www/html/proyectoModulo6/app/Controllers/Clientes.php(54): CodeIgniter\BaseModel->save(Array)
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Clientes->store()
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}

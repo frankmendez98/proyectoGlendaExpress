@@ -44,7 +44,8 @@ $routes->group('login', ['namespace' => 'App\Controllers'], function ($routes) {
  */
 $routes->group('clientes', ['namespace' => 'App\Controllers'], function ($routes) {
     $routes->get('/', 'Clientes::index', ['as' => 'clientes']);
-    $routes->post('agregar', 'Clientes::agregar', ['as' => 'agregar_cliente']);
+    $routes->get('create', 'Clientes::create', ['as' => 'agregar_cliente']);
+    $routes->post('create', 'Clientes::store', ['as' => 'store_cliente']);
 });
 
 /**

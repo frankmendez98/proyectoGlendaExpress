@@ -1,5 +1,7 @@
 <!-- Mainly scripts -->
 <script src="<?=base_url('assets/js/jquery-3.1.1.min.js');?>"></script>
+<script src="<?=base_url('assets/js/datatables.min.js');?>"></script>
+
 <script src="<?=base_url('assets/js/popper.min.js');?>"></script>
 <script src="<?=base_url('assets/js/bootstrap.js');?>"></script>
 <script src="<?=base_url('assets/js/plugins/metisMenu/jquery.metisMenu.js');?>"></script>
@@ -45,7 +47,7 @@
 <script src="<?=base_url("assets/libs/cropper/cropper.min.js")?>"></script>
 
 <!-- Data Tables -->
-<script src="<?= base_url(); ?>assets/libs/dataTables/datatables.js"></script>
+<!--<script src="<?= base_url(); ?>assets/libs/dataTables/datatables.js"></script>-->
 
 <script src="<?=base_url("assets/libs/select2/select2.min.js")?>"></script>
 

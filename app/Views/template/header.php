@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="<?=base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/datatables.min.css'); ?>" rel="stylesheet">
+
     <link href="<?=base_url('assets/font-awesome/css/font-awesome.css');?>" rel="stylesheet">
 
     <!-- Toastr style -->
@@ -16,10 +18,10 @@
 
     <link href="<?=base_url('assets/css/animate.css');?>" rel="stylesheet">
     <link href="<?=base_url('assets/css/style.css');?>" rel="stylesheet">
-	<link href="<?= base_url(); ?>assets/libs/izitoast/iziToast.min.css" rel="stylesheet" type="text/css" />
-	<link href="<?= base_url(); ?>assets/libs/cropper/cropper.min.css" rel="stylesheet" type="text/css" />
-	<link href="<?= base_url(); ?>assets/libs/dataTables/dataTables.css" rel="stylesheet">
-	<link href="<?= base_url(); ?>assets/libs/select2/select2.min.css" rel="stylesheet">
+	<link href="<?= base_url('assets/libs/izitoast/iziToast.min.css'); ?>" rel="stylesheet" type="text/css" />
+	<link href="<?= base_url('assets/libs/cropper/cropper.min.css'); ?>" rel="stylesheet" type="text/css" />
+	<link href="<?= base_url('assets/libs/dataTables/dataTables.css'); ?>" rel="stylesheet">
+	<link href="<?= base_url('assets/libs/select2/select2.min.css'); ?>" rel="stylesheet">
 
     <script>var base_url = '<?php echo base_url() ?>'</script>
 </head>

@@ -9945,3 +9945,16 @@ body.md-skin {
 .center{
   text-align: center;
 }
+
+
+
+
+
+/** Clases*/
+
+.btn_agregar_admin{
+  position: absolute;
+  color: #fff!important;
+  right: 20px;
+  top: 30px;
+}
