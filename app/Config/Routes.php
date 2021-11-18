@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Inicio');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,7 +31,29 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Inicio::index');
+
+$routes->group('login', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Login::index', ['as' => 'login']);
+    $routes->post('login', 'Login::login', ['as' => 'verify']);
+    $routes->get('logout', 'Login::logout', ['as' => 'logout']);
+});
+
+/**
+ * Modulo de Clientes
+ */
+$routes->group('clientes', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Clientes::index', ['as' => 'clientes']);
+    $routes->post('agregar', 'Clientes::agregar', ['as' => 'agregar_cliente']);
+});
+
+/**
+ * Modulo de Paquetes
+ */
+$routes->group('paquetes', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Paquetes::index', ['as' => 'paquetes']);
+    $routes->post('agregar', 'Paquetes::agregar', ['as' => 'agregar_paquete']);
+});
 
 /*
  * --------------------------------------------------------------------
