@@ -22,6 +22,7 @@
 	<link href="<?= base_url('assets/libs/cropper/cropper.min.css'); ?>" rel="stylesheet" type="text/css" />
 	<link href="<?= base_url('assets/libs/dataTables/dataTables.css'); ?>" rel="stylesheet">
 	<link href="<?= base_url('assets/libs/select2/select2.min.css'); ?>" rel="stylesheet">
+	<link href="<?= base_url('assets/libs/sweetalert2/sweetalert2.min.css'); ?>" rel="stylesheet">
 
     <script>var base_url = '<?php echo base_url() ?>'</script>
 </head>

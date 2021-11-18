@@ -63,4 +63,19 @@ class Clientes extends BaseController {
 		}
 		echo json_encode($xdatos);
 	}
+	function destroy(){
+		$id = $this->request->getPost('id');
+		//echo $id;
+		if ($this->clientes->delete($id)) {
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo eliminado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al eliminar registro";
+		}
+		echo json_encode($xdatos);
+	}
 }

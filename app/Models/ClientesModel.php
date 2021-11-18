@@ -8,7 +8,7 @@ class ClientesModel extends Model
   protected $table = 'clientes';
   protected $primaryKey = 'id';
   protected $returnType = Cliente::class; 
-  protected $useSoftDeletes = false; 
+  protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 
                               'nombre', 
                               'direccion', 

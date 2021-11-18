@@ -33,7 +33,8 @@
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
-                                                    <th>Nombre</th>
+                                                    <th style="width: 60%;">Nombre</th>
+                                                    <th style="width: 20%;">Accion</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -44,10 +45,19 @@
                                                         <tr>
                                                             <td><?=$arrCliente->id;?></td>
                                                             <td><?=$arrCliente->nombre;?></td>
+                                                            <td>
+                                                                <div class="dropdown">
+                                                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        Menu
+                                                                    </button>
+                                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                        <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrCliente->id;?>">Eliminar</a>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
                                                         </tr>
                                                     <?php
                                                 }
-
                                             ?>
                                             </tbody>
                                         </table>

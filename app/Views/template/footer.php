@@ -54,6 +54,8 @@
 <script src="<?= base_url("assets/libs/numeric/jquery.numeric.js"); ?>"></script>
 <script src="<?=base_url('assets/js/utils.js');?>"></script>
 
+<script src="<?=base_url("assets/libs/sweetalert2/sweetalert2.min.js")?>"></script>
+
         <div class='modal  fade' id='viewModal' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
             <div class='modal-dialog modal-lg'>
                 <div class='modal-content modal-md'>
