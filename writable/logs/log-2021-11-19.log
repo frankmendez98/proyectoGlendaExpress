@@ -1,0 +1,43 @@
+CRITICAL - 2021-11-19 11:41:23 --> Call to undefined function App\Controllers\layout_tienda()
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-19 11:41:37 --> Cannot redeclare layout() (previously declared in /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php:4)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-19 11:42:45 --> Invalid file: template_dashboard/menu.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_dashbo...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('template_dashbo...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(20): view('template_dashbo...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-19 11:42:46 --> Invalid file: template_dashboard/menu.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_dashbo...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('template_dashbo...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(20): view('template_dashbo...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-19 11:42:46 --> Invalid file: template_dashboard/menu.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_dashbo...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('template_dashbo...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(20): view('template_dashbo...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}

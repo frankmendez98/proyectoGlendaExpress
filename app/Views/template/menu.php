@@ -20,6 +20,10 @@
                         </div>
                     </li>
                     <li class="">
+                        <a href="<?=base_url(route_to('tienda_dashboard'));?>"><i class="fa fa-user "></i> <span class="nav-label">Ir a Tienda</span> <span class="fa arrow"></span></a>
+                        
+                    </li>
+                    <li class="">
                         <a href="index.html"><i class="fa fa-user "></i> <span class="nav-label">Clientes</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="<?=base_url(route_to('clientes'));?>">Administrar</a></li>

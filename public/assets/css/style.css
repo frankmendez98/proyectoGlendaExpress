@@ -9958,3 +9958,19 @@ body.md-skin {
   right: 20px;
   top: 30px;
 }
+
+.menu_tienda{
+  background-color: #009999 !important;
+  padding: 15px 0px 5px 0px;
+}
+.menu_tienda ul{
+  text-align: center;
+}
+.menu_tienda ul li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  min-width: 100px;
+  color: #fff;
+  font-size: 15px;
+}
