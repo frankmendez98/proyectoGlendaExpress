@@ -970,3 +970,106 @@ CRITICAL - 2021-11-22 12:29:08 --> Unknown column 'categorias.deleted_at' in 'wh
 #10 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #11 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
 #12 {main}
+CRITICAL - 2021-11-22 13:21:23 --> Undefined property: App\Controllers\Categorias::$clientes
+#0 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/p...', 52, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 13:21:38 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(52): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:22:02 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(52): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:22:35 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(52): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:22:58 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(53): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:23:14 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(52): CodeIgniter\Model->insert(Array)
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#8 {main}
+CRITICAL - 2021-11-22 13:24:13 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('categoria', 'insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert('categoria', false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert('categoria', false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(50): CodeIgniter\BaseModel->save('categoria')
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:24:42 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(50): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 13:25:21 --> Array to string conversion
+#0 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/p...', 48, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 13:25:38 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(51): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
