@@ -34,7 +34,10 @@
                                                 <tr>
                                                     <th>ID</th>
                                                     <th style="width: 60%;">Seguimiento</th>
-                                                    <th style="width: 20%;">Accion</th>
+                                                    <th style="width: 10%;">Cantidad</th>
+                                                    <th style="width: 10%;">Precio</th>
+                                                    <th style="width: 10%;">Fecha Ent.</th>
+                                                    <th style="width: 10%;">Accion</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -45,6 +48,9 @@
                                                         <tr>
                                                             <td><?=$arrPaquete->id;?></td>
                                                             <td><?=$arrPaquete->numero_seguimiento;?></td>
+                                                            <td><?=$arrPaquete->cantidad;?></td>
+                                                            <td><?=$arrPaquete->precio_pedido;?></td>
+                                                            <td><?=$arrPaquete->fecha_entrega;?></td>
                                                             <td>
                                                                 <div class="dropdown">
                                                                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
