@@ -57,6 +57,7 @@
                                                                         Menu
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                        <a class="dropdown-item" href="">Ver Orden</a>
                                                                         <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrPaquete->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>
