@@ -71,6 +71,7 @@ $routes->group('tienda', ['namespace' => 'App\Controllers'], function ($routes) 
 $routes->group('paquetes_online', ['namespace' => 'App\Controllers'], function ($routes) {
     $routes->get('/', 'Paquetes_online::index', ['as' => 'paquetes_online']);
     $routes->post('create', 'Paquetes_online::create', ['as' => 'agregar_paquetes_online']);
+    $routes->get('show/(:any)', 'Paquetes_online::show/$1', ['as' => 'ver_orden_paquetes_online']);
 });
 
 /*

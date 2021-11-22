@@ -2,20 +2,20 @@
     <div id="page-wrapper" class="contenedor_principal gray-bg">
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-12">
-                <h2>Agregar Cliente</h2>
+                <h2>Administrar Paquetes Online</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="<?=base_url();?>">Inicio</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a>Clientes</a>
+                        <a>Paquetes</a>
                     </li>
                     <li class="breadcrumb-item active">
                         <strong>Administrar</strong>
                     </li>
                 </ol>
 
-                <a href="<?=base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Cliente</a>
+                <!--<a href="<?php //echo base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Cliente</a>-->
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
@@ -57,7 +57,7 @@
                                                                         Menu
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                                        <a class="dropdown-item" href="">Ver Orden</a>
+                                                                        <a class="dropdown-item" href="<?=base_url(route_to('ver_orden_paquetes_online', $arrPaquete->id));?>"><i class='fa fa-eye'></i> Ver Orden</a>
                                                                         <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrPaquete->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>

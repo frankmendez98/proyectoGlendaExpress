@@ -1,0 +1,897 @@
+CRITICAL - 2021-11-22 10:10:41 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:10:42 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:11:12 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:11:13 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:11:14 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:11:14 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:11:14 --> Invalid file: paquetes_onlien/ver_orden.php
+#0 /var/www/html/proyectoModulo6/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paquetes_onlien...')
+#1 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_onlien...', Array, true)
+#2 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_onlien...', Array)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(90): layout('paquetes_onlien...', Array, Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+CRITICAL - 2021-11-22 10:15:48 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:50 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:50 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:51 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:51 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:51 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:51 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:15:51 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:16:05 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:16:06 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:16:06 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:16:06 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:17:57 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:17:58 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:17:58 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:17:58 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:00 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:14 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:14 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:15 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:35 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:35 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:18:36 --> Too few arguments to function App\Controllers\Paquetes_online::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:21:22 --> Class 'App\Controllers\PaquetesModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:22:42 --> Class 'App\Controllers\PaquetesModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 10:54:32 --> Trying to get property 'numero_seguimiento' of non-object
+#0 /var/www/html/proyectoModulo6/app/Views/paquetes_online/ver_orden.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 32, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_online...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_online...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(95): layout('paquetes_online...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-22 11:04:14 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:56 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:56 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:56 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:57 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:58 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:59 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:59 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:04:59 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:05:08 --> Trying to get property 'nombre' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:05:10 --> Trying to get property 'nombre' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:06:44 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:06:44 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:06:45 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:06:45 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:06:45 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:20 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:21 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:40 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:42 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:42 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:42 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:07:42 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:01 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:02 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:02 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:02 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:03 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:03 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:08 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:09 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:09 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:10 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:22 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:23 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:31 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:32 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:32 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:36 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:08:37 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:17 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:17 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:17 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:17 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:18 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:19 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:19 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:19 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+CRITICAL - 2021-11-22 11:09:19 --> Call to a member function where() on null
+#0 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#1 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#7 {main}
+ERROR - 2021-11-22 11:09:45 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 11:09:45 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/proyectoModulo6/app/Entities/Paquete_online.php(19): CodeIgniter\BaseModel->first()
+#7 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+ERROR - 2021-11-22 11:09:46 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 11:09:46 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/proyectoModulo6/app/Entities/Paquete_online.php(19): CodeIgniter\BaseModel->first()
+#7 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+ERROR - 2021-11-22 11:09:50 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 11:09:50 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/proyectoModulo6/app/Entities/Paquete_online.php(19): CodeIgniter\BaseModel->first()
+#7 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+ERROR - 2021-11-22 11:09:51 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 11:09:51 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/proyectoModulo6/app/Entities/Paquete_online.php(19): CodeIgniter\BaseModel->first()
+#7 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+ERROR - 2021-11-22 11:09:51 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 11:09:51 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/proyectoModulo6/app/Entities/Paquete_online.php(19): CodeIgniter\BaseModel->first()
+#7 /var/www/html/proyectoModulo6/system/Entity/Entity.php(490): App\Entities\Paquete_online->getUsuario()
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Entity\Entity->__get('usuario')
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+CRITICAL - 2021-11-22 11:11:10 --> Trying to get property 'nombre' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:11:23 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:11:24 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:11:24 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:11:24 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 83, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:14:39 --> Class 'App\Entities\Usuario' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 11:16:17 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 84, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:16:18 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 84, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 11:16:18 --> Trying to get property 'usuario' of non-object
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_online.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/p...', 84, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_online->show('4')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_online))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}

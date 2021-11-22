@@ -76,6 +76,25 @@ class Paquetes_online extends BaseController {
 		}
         echo json_encode($xdatos);
 	}
+	function show($id = 0){
+		//$id = $this->request->uri->getSegment(3);
+		//echo $id;
+		$encabezado = $this->paquetes->find($id);
+		
+		//dd($encabezado->usuario);
+		$data = array(
+            "titulo"=> "Paquetes",
+			"icono"=> "mdi mdi-format-list-bulleted",
+			"encabezado" => $encabezado,
+		);
+		$extras = array(
+			'css' => array(),
+			'js' => array(
+			    "js/scripts/paquetes_online.js"
+            ),
+		);
+		layout("paquetes_online/ver_orden",$data,$extras);
+	}
 	function destroy(){
 		$id = $this->request->getPost('id');
 		//echo $id;

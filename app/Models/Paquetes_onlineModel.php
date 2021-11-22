@@ -1,13 +1,13 @@
 <?php namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Entities\Cliente;
+use App\Entities\Paquete_online;
 
 class Paquetes_onlineModel extends Model
 {
   protected $table = 'ordenes_online';
   protected $primaryKey = 'id';
-  protected $returnType = Cliente::class; 
+  protected $returnType = Paquete_online::class; 
   protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 
                               'id_usuario',

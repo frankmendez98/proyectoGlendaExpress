@@ -20,7 +20,7 @@
                         </div>
                     </li>
                     <li class="">
-                        <a href="<?=base_url(route_to('tienda_dashboard'));?>"><i class="fa fa-user "></i> <span class="nav-label">Ir a Tienda</span> <span class="fa arrow"></span></a>
+                        <a href="<?=base_url(route_to('tienda_dashboard'));?>"><i class="fa fa-cart-plus"></i> <span class="nav-label">Ir a Tienda</span> <span class="fa arrow"></span></a>
                         
                     </li>
                     <li class="">
@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li class="">
-                        <a href="index.html"><i class="fa fa-briefcase "></i> <span class="nav-label">Ordenes Online</span> <span class="fa arrow"></span></a>
+                        <a href="index.html"><i class="fa fa-truck "></i> <span class="nav-label">Ordenes Online</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="<?=base_url(route_to('paquetes_online'));?>">Administrar</a></li>
                         </ul>
