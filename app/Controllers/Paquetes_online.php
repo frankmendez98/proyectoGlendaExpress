@@ -14,22 +14,35 @@ class Paquetes_online extends BaseController {
 
 	public function index()
 	{
-		//$clientes = $this->clientes->findAll();
+		$paquetes = $this->paquetes->findAll();
 		//dd($clientes);
 		//var_dump($clientes);
 		
 		$data = array(
-            "titulo"=> "Categorias",
+			"titulo"=> "Admin Ordenes Online",
 			"icono"=> "mdi mdi-format-list-bulleted",
-			//"clientes" => $clientes,
+			"buttons" => array(
+				0 => array(
+					"icon"=> "fa fa-plus",
+					'url' => 'movimientos/agregar_salida',
+					'txt' => 'Agregar Salida',
+					'modal' => false,
+				),
+			),
+			"table"=>array(
+				"ID"=>1,
+				"Concepto"=>8,
+				//"Acciones"=>1,
+			),
+            "detalle" => $paquetes,
 		);
 		$extras = array(
 			'css' => array(),
 			'js' => array(
-			    "js/scripts/clientes.js"
+			    "js/funciones/paquetes_online.js"
             ),
 		);
-		layout("template/admin",$data,$extras);
+		layout("paquetes_online/admin",$data,$extras);
 	}
 	function create(){
 		$data = array(

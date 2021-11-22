@@ -13,6 +13,10 @@ $(document).ready(function(){
             fileSize: "El archivo es muy grande(1M max)."
         }
     });
+    /**
+     * Procedemos a cargar los datos de la tabla
+     */
+     $('#tabla').DataTable(); // End of DataTable
 });
 
 $("#form_add").on('submit', function(e){

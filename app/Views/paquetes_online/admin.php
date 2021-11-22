@@ -33,25 +33,25 @@
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
-                                                    <th style="width: 60%;">Nombre</th>
+                                                    <th style="width: 60%;">Seguimiento</th>
                                                     <th style="width: 20%;">Accion</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                             <?php
-                                                foreach ($clientes as $arrCliente) {
+                                                foreach ($detalle as $arrPaquete) {
                                                     # code...
                                                     ?>
                                                         <tr>
-                                                            <td><?=$arrCliente->id;?></td>
-                                                            <td><?=$arrCliente->nombre;?></td>
+                                                            <td><?=$arrPaquete->id;?></td>
+                                                            <td><?=$arrPaquete->numero_seguimiento;?></td>
                                                             <td>
                                                                 <div class="dropdown">
                                                                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         Menu
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                                        <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrCliente->id;?>">Eliminar</a>
+                                                                        <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrPaquete->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>
                                                             </td>

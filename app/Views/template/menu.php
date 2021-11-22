@@ -35,6 +35,12 @@
                             <li><a href="<?=base_url(route_to('paquetes'));?>">Administrar</a></li>
                         </ul>
                     </li>
+                    <li class="">
+                        <a href="index.html"><i class="fa fa-briefcase "></i> <span class="nav-label">Ordenes Online</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="<?=base_url(route_to('paquetes_online'));?>">Administrar</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
             </div>
