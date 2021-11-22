@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-group">
-                        <label for="">Precio</label>
+                        <label for="">Precio de Pedido</label>
                         <input required type="text" class="form-control" name="precio_pedido" placeholder="Ingrese precio">
                     </div>
                 </div>
