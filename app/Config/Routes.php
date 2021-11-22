@@ -74,6 +74,15 @@ $routes->group('paquetes_online', ['namespace' => 'App\Controllers'], function (
     $routes->get('show/(:any)', 'Paquetes_online::show/$1', ['as' => 'ver_orden_paquetes_online']);
 });
 
+/**
+ * Modulo de Categorias
+ */
+$routes->group('categorias', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Categorias::index', ['as' => 'categorias']);
+    $routes->get('create', 'Categorias::create', ['as' => 'agregar_categoria']);
+    $routes->post('create', 'Categorias::store', ['as' => 'store_categoria']);
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
