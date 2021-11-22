@@ -65,6 +65,14 @@ $routes->group('tienda', ['namespace' => 'App\Controllers'], function ($routes) 
     $routes->post('create', 'Clientes::store', ['as' => 'store_cliente']);
 });
 
+/**
+ * Modulo de Paquetes Online
+ */
+$routes->group('paquetes_online', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Paquetes_online::index', ['as' => 'paquetes_online']);
+    $routes->post('create', 'Paquetes_online::create', ['as' => 'agregar_paquetes_online']);
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

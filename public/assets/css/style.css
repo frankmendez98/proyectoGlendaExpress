@@ -9974,3 +9974,10 @@ body.md-skin {
   color: #fff;
   font-size: 15px;
 }
+.menu_tienda ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.contenedor_plantilla_tienda{
+  margin-top: 20px;
+}
