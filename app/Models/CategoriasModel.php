@@ -9,7 +9,7 @@ class CategoriasModel extends Model
   protected $primaryKey = 'id';
   protected $returnType = Categoria::class; 
   protected $useSoftDeletes = true; 
-  protected $allowedFields = ['id',]; 
+  protected $allowedFields = ['id', 'nombre', 'created_at', 'updated_at', 'deleted_at']; 
   protected $useTimestamps = true; 
   protected $createdField = 'created_at'; 
   protected $updatedField = 'updated_at'; 

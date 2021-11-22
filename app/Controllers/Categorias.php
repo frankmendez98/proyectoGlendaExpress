@@ -39,19 +39,16 @@ class Categorias extends BaseController {
 		$extras = array(
 			'css' => array(),
 			'js' => array(
-			    "js/scripts/clientes.js"
+			    "js/scripts/categorias.js"
             ),
 		);
-		layout("clientes/agregar",$data,$extras);
+		layout("categorias/agregar",$data,$extras);
 	}
 	function store(){
-		$form = [
-            'nombre' => $this->request->getPost('nombre'),
-			'direccion' => $this->request->getPost('direccion'),
-			'telefono' => $this->request->getPost('telefono'),
-        ];
+        //var_dump($this->request->getPost());
+		$form = $this->request->getPost();
 
-		if ($this->clientes->save($form)) {
+		if ($this->categorias->save($form)) {
 			$xdatos["type"]="success";
 			$xdatos['title']='Información';
 			$xdatos["msg"]="Registo ingresado correctamente!";
