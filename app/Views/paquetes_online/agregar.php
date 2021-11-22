@@ -29,7 +29,7 @@
                 <div class="col-lg-3">
                     <div class="form-group">
                         <label for="">Precio</label>
-                        <input required type="text" class="form-control" name="precio_pedido" placeholder="Ingrese precio">
+                        <input required type="text" class="form-control" name="precio_pedido" placeholder="Ingrese precio de pedido">
                     </div>
                 </div>
             </div>
