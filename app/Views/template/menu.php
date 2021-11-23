@@ -24,7 +24,7 @@
                         
                     </li>
                     <li class="">
-                        <a href="index.html"><i class="fa fa-user "></i> <span class="nav-label">Categorias</span> <span class="fa arrow"></span></a>
+                        <a href="index.html"><i class="fa fa-navicon"></i> <span class="nav-label">Categorias</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="<?=base_url(route_to('categorias'));?>">Administrar</a></li>
                         </ul>

@@ -1073,3 +1073,10 @@ CRITICAL - 2021-11-22 13:25:38 --> There is no data to insert.
 #7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
 #9 {main}
+CRITICAL - 2021-11-22 13:47:50 --> Class 'App\Controllers\PaquetesModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
