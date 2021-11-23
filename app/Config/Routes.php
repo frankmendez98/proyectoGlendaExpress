@@ -83,6 +83,15 @@ $routes->group('categorias', ['namespace' => 'App\Controllers'], function ($rout
     $routes->post('create', 'Categorias::store', ['as' => 'store_categoria']);
 });
 
+/**
+ * Modulo de Seguimiento
+ */
+$routes->group('seguimientos', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('/', 'Seguimientos::index', ['as' => 'categorias']);
+    $routes->get('create', 'Seguimientos::create', ['as' => 'agregar_categoria']);
+    $routes->post('create', 'Seguimientos::store', ['as' => 'store_categoria']);
+    $routes->post('cargar_seguimiento', 'Seguimientos::cargar_seguimiento', ['as' => 'cargar_seguimiento']);
+});
 /*
  * --------------------------------------------------------------------
  * Additional Routing

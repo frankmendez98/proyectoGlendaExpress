@@ -58,6 +58,7 @@
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                                         <a class="dropdown-item" href="<?=base_url(route_to('ver_orden_paquetes_online', $arrPaquete->id));?>"><i class='fa fa-eye'></i> Ver Orden</a>
+                                                                        <a class="dropdown-item seguimiento_modal" data-toggle='modal' data-target='#productMo' data-refresh='true'  role='button' id_detalle="<?=$arrPaquete->id;?>">Agregar Seguimiento</a>
                                                                         <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrPaquete->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>
@@ -77,4 +78,11 @@
             </form>
         </div>
     </div>
+</div>
+
+<div class="modal  fade" id="productMo" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-lg">
+		</div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </div>

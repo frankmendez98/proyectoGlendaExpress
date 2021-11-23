@@ -1,4 +1,6 @@
 let url = base_url+"/paquetes_online/";
+let urlSeguimiento = base_url+"/seguimientos/";
+
 
 $(document).ready(function(){
     //alert("aqui");
@@ -18,7 +20,20 @@ $(document).ready(function(){
      */
      $('#tabla').DataTable(); // End of DataTable
 });
-
+/*inicia modal de seguimiento*/
+$(document).on('click', '.seguimiento_modal', function(event) {
+    var id = $(this).attr("id_detalle");
+    $("#productMo").modal('show');
+    $.ajax({
+        url: urlSeguimiento+"cargar_seguimiento",
+        type:"POST",
+        dataType:"html",
+        data:{id:id},
+        }).done(function(data) {
+            $("#productMo .modal-content").html(data);
+        });
+	//$('#productMo .modal-content').load(url+"cargar_mesas");
+});
 $("#form_add").on('submit', function(e){
     e.preventDefault();
     $(this).parsley().validate();

@@ -1080,3 +1080,36 @@ CRITICAL - 2021-11-22 13:47:50 --> Class 'App\Controllers\PaquetesModel' not fou
 #3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
 #5 {main}
+CRITICAL - 2021-11-22 20:46:45 --> Call to undefined method CodeIgniter\HTTP\Response::getPost()
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->cargar_seguimiento()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 20:54:45 --> Class 'App\Controllers\SeguimientosEstadosModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Seguimientos->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 20:54:48 --> Class 'App\Controllers\SeguimientosEstadosModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Seguimientos->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-22 20:55:15 --> Undefined variable: estados
+#0 /var/www/html/proyectoModulo6/app/Views/seguimiento/modal_seguimiento.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 21, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('seguimiento/mod...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Controllers/Seguimientos.php(42): view('seguimiento/mod...', Array)
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->cargar_seguimiento()
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#10 {main}
