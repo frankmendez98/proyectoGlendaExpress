@@ -34,6 +34,28 @@ $(document).on('click', '.seguimiento_modal', function(event) {
         });
 	//$('#productMo .modal-content').load(url+"cargar_mesas");
 });
+
+$(document).on('click', '#agregarSeguimientoModal', function(event) {
+    var id_orden = $("#id_orden").val();
+    var estado = $("#estado").val();
+    var observacion = $("#observacion").val();
+    $("#productMo").modal('show');
+    $.ajax({
+        url: urlSeguimiento+"store",
+        type:"POST",
+        dataType:"html",
+        data:{id_orden:id_orden, id_estado:estado, observacion:observacion},
+        dataType: 'json',
+        success: function (data) {
+            notification(data.type,data.title,data.msg);
+			if (data.type == "success") {
+				setTimeout("reload();", 1500);
+			}
+        }
+    });
+	//$('#productMo .modal-content').load(url+"cargar_mesas");
+});
+
 $("#form_add").on('submit', function(e){
     e.preventDefault();
     $(this).parsley().validate();
@@ -69,4 +91,7 @@ function save_data(){
 
 function reload() {
 	location.href = url;
+}
+function reload_seguimiento() {
+	location.href = urlSeguimiento;
 }

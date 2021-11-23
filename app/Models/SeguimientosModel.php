@@ -5,11 +5,11 @@ use App\Entities\Seguimiento;
 
 class SeguimientosModel extends Model
 {
-  protected $table = 'categorias';
+  protected $table = 'seguimiento';
   protected $primaryKey = 'id';
-  protected $returnType = Categoria::class; 
+  protected $returnType = Seguimiento::class; 
   protected $useSoftDeletes = true; 
-  protected $allowedFields = ['id', 'nombre', 'created_at', 'updated_at', 'deleted_at']; 
+  protected $allowedFields = ['id', 'id_orden', 'tipo', 'id_estado', 'observacion', 'fecha', 'hora', 'created_at', 'updated_at', 'deleted_at']; 
   protected $useTimestamps = true; 
   protected $createdField = 'created_at'; 
   protected $updatedField = 'updated_at'; 

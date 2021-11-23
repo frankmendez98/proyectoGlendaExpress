@@ -31,7 +31,7 @@ $dat = uniqid();
     <div class="col-lg-6">
         <div class="form-group">
             <label for="">Observacion</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="observacion" id="observacion">
         </div>
     </div>
   </div>

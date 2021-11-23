@@ -1113,3 +1113,47 @@ CRITICAL - 2021-11-22 20:55:15 --> Undefined variable: estados
 #8 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
 #10 {main}
+CRITICAL - 2021-11-22 21:10:49 --> Call to undefined method App\Models\SeguimientosModel::getPost
+#0 /var/www/html/proyectoModulo6/app/Controllers/Seguimientos.php(47): CodeIgniter\Model->__call('getPost', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-22 21:11:43 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Seguimientos.php(50): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#9 {main}
+ERROR - 2021-11-22 21:14:08 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`seguimiento`, CONSTRAINT `seguimiento_ibfk_1` FOREIGN KEY (`id_orden`) REFERENCES `ordenes` (`id`))
+CRITICAL - 2021-11-22 21:14:08 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`seguimiento`, CONSTRAINT `seguimiento_ibfk_1` FOREIGN KEY (`id_orden`) REFERENCES `ordenes` (`id`))
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /var/www/html/proyectoModulo6/app/Controllers/Seguimientos.php(52): CodeIgniter\BaseModel->save(Array)
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->store()
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#14 {main}
+CRITICAL - 2021-11-22 21:19:16 --> Undefined variable: estados
+#0 /var/www/html/proyectoModulo6/app/Controllers/Seguimientos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 26, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Seguimientos->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seguimientos))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}

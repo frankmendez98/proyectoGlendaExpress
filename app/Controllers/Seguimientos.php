@@ -42,25 +42,14 @@ class Seguimientos extends BaseController {
 					  "estados" => $estados);
         echo view('seguimiento/modal_seguimiento',$data);
     }
-	/*
-	function create(){
-		$data = array(
-            "titulo"=> "Categorias",
-			"icono"=> "mdi mdi-format-list-bulleted",
-		);
-		$extras = array(
-			'css' => array(),
-			'js' => array(
-			    "js/scripts/categorias.js"
-            ),
-		);
-		layout("categorias/agregar",$data,$extras);
-	}
 	function store(){
         //var_dump($this->request->getPost());
 		$form = $this->request->getPost();
+		$form['tipo'] = 2;
+		$form['fecha'] = date("Y-m-d");
+		$form['hora'] = date("H:i:s");
 
-		if ($this->categorias->save($form)) {
+		if ($this->seguimiento->save($form)) {
 			$xdatos["type"]="success";
 			$xdatos['title']='Información';
 			$xdatos["msg"]="Registo ingresado correctamente!";
@@ -72,20 +61,4 @@ class Seguimientos extends BaseController {
 		}
 		echo json_encode($xdatos);
 	}
-	function destroy(){
-		$id = $this->request->getPost('id');
-		//echo $id;
-		if ($this->categorias->delete($id)) {
-			$xdatos["type"]="success";
-			$xdatos['title']='Información';
-			$xdatos["msg"]="Registo eliminado correctamente!";
-		}
-		else{
-			$xdatos["type"]="error";
-			$xdatos['title']='Alerta';
-			$xdatos["msg"]="Error al eliminar registro";
-		}
-		echo json_encode($xdatos);
-	}
-	*/
 }
