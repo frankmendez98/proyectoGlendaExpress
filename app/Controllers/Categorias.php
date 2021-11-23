@@ -63,7 +63,7 @@ class Categorias extends BaseController {
 	function destroy(){
 		$id = $this->request->getPost('id');
 		//echo $id;
-		if ($this->clientes->delete($id)) {
+		if ($this->categorias->delete($id)) {
 			$xdatos["type"]="success";
 			$xdatos['title']='Información';
 			$xdatos["msg"]="Registo eliminado correctamente!";

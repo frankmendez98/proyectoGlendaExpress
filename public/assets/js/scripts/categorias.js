@@ -38,7 +38,38 @@ function save_data(){
 		}
 	});
 }
-
+$(document).on("click",".eliminar_elemento", function(event)
+{
+	event.preventDefault()
+	let id_row = $(this).attr("id_detalle");
+	let dataString = "id=" + id_row;
+	Swal.fire({
+		title: 'Alerta!!',
+		text: "Estas seguro de eliminar este regitro?!",
+		type: 'error',
+		target:'#page-top',
+		showCancelButton: true,
+		confirmButtonColor: '#3085d6',
+		cancelButtonColor: '#d33',
+		confirmButtonText: 'Aceptar',
+		cancelButtonText: 'Cancelar',
+	}).then((result) => {
+		if (result.value) {
+			$.ajax({
+				type: "POST",
+				url: url+"destroy",
+				data: dataString,
+				dataType: 'json',
+				success: function (data) {
+					notification(data.type,data.title,data.msg);
+					if (data.type == "success") {
+						setTimeout("reload();", 1500);
+					}
+				}
+			});
+		}
+	});
+});
 function reload() {
 	location.href = url;
 }
