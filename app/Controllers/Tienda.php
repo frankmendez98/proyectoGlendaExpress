@@ -25,19 +25,23 @@ class Tienda extends BaseController {
 		foreach ($paquetesOnline as $keyP => $arrPaquete) {
 			# code...
 			$seguimientoEstados = $this->seguimiento_estados->findAll();
+			$estadoActual = "";
+
 			foreach ($seguimientoEstados as $key => $arrSeguimiento) {
 				# code...
 				//Procedemos a validar si el estado se encuentra asociado a la orden
-				$validarEstado = $this->utils->exist_where("seguimiento", array("id_orden"=>$arrPaquete->id, "id_estado"=>$arrSeguimiento->id));
+				$validarEstado = $this->utils->exist_where("seguimiento", array("id_orden" => $arrPaquete->id, "id_estado" => $arrSeguimiento->id));
 				//echo $arrSeguimiento->id;
 				if($validarEstado){
 					$seguimientoEstados[$key]->estado_activo = 1;
+					$estadoActual = $arrSeguimiento->nombre;//Sobreescribimos hasta encontrar el ultimo estado que ha sido asignado a la orden
 				}
 				else{
-					$seguimientoEstados[$key]->estado_activo = 2;
+					$seguimientoEstados[$key]->estado_activo = 0;
 				}
 			}
-			$paquetesOnline[$keyP]->seguimiento_estados = $seguimientoEstados;
+			$paquetesOnline[$keyP]->seguimiento_estados = $seguimientoEstados;//Almacenamos el objeto seguimiento modificado
+			$paquetesOnline[$keyP]->estado_actual = $estadoActual;//Almacenamos el estado final que posee la orden
 		}
 		//dd($clientes);
 		//var_dump($clientes);

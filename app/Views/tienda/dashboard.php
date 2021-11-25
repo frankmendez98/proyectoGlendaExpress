@@ -15,8 +15,8 @@
                                         <div class="col"> <strong>Enviado Por:</strong> <br> <?=$arrPaquete->usuario->usuario;?>, | <i class="fa fa-phone"></i> <?=$arrPaquete->usuario->telefono;?> </div>
                                     </div>
                                     <div class="card-body row">
-                                        <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
-                                        <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
+                                        <div class="col"> <strong>Estado Actual:</strong> <br> <?=$arrPaquete->estado_actual;?> </div>
+                                        <div class="col"> <strong># de Seguimiento:</strong> <br> BD045903594059 </div>
                                     </div>
                                 </article>
                                 <div class="track">
