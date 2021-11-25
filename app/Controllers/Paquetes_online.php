@@ -39,7 +39,7 @@ class Paquetes_online extends BaseController {
 		$extras = array(
 			'css' => array(),
 			'js' => array(
-			    "js/funciones/paquetes_online.js"
+			    "js/scripts/paquetes_online.js"
             ),
 		);
 		layout("paquetes_online/admin",$data,$extras);
