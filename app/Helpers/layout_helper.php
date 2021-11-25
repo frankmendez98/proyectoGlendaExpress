@@ -19,7 +19,7 @@ if (!function_exists('layout_tienda')) {
 		echo view('template/header',$extras);
 		echo view('template_tienda/menu',$menu_data);
 		echo view($view, $view_data);
-		echo view('template/footer');
+		echo view('template_tienda/footer');
 		echo view('template/scripts',$extras);
         return true;
 	}

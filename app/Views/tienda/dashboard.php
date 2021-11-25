@@ -1,49 +1,39 @@
 <div class="container">
-    <article class="card">
-        <header class="card-header"> Mis Ordenes / Seguimiento </header>
-        <div class="card-body">
-            <h6>Order ID: OD45345345435</h6>
-            <article class="card">
-                <div class="card-body row">
-                    <div class="col"> <strong>Estimated Delivery time:</strong> <br>29 nov 2019 </div>
-                    <div class="col"> <strong>Shipping BY:</strong> <br> BLUEDART, | <i class="fa fa-phone"></i> +1598675986 </div>
-                    <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
-                    <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
-                </div>
-            </article>
-            <div class="track">
-                <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
-                <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> Picked by courier</span> </div>
-                <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
-                <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Ready for pickup</span> </div>
-            </div>
-            <hr>
-            <ul class="row">
-                <li class="col-md-4">
-                    <figure class="itemside mb-3">
-                        <div class="aside"><img src="https://i.imgur.com/iDwDQ4o.png" class="img-sm border"></div>
-                        <figcaption class="info align-self-center">
-                            <p class="title">Dell Laptop with 500GB HDD <br> 8GB RAM</p> <span class="text-muted">$950 </span>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="col-md-4">
-                    <figure class="itemside mb-3">
-                        <div class="aside"><img src="https://i.imgur.com/tVBy5Q0.png" class="img-sm border"></div>
-                        <figcaption class="info align-self-center">
-                            <p class="title">HP Laptop with 500GB HDD <br> 8GB RAM</p> <span class="text-muted">$850 </span>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="col-md-4">
-                    <figure class="itemside mb-3">
-                        <div class="aside"><img src="https://i.imgur.com/Bd56jKH.png" class="img-sm border"></div>
-                        <figcaption class="info align-self-center">
-                            <p class="title">ACER Laptop with 500GB HDD <br> 8GB RAM</p> <span class="text-muted">$650 </span>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </article>
+    <div class="row">
+        <?php
+            foreach ($paquetes_online as $arrPaquete) {
+                # code...
+                ?>
+                    <div class="col-lg-6">
+                        <article class="card">
+                            <header class="card-header"> Mis Ordenes / Seguimiento </header>
+                            <div class="card-body">
+                                <h6>Numero de Orden: <?=$arrPaquete->id;?></h6>
+                                <article class="card">
+                                    <div class="card-body row">
+                                        <div class="col"> <strong>Fecha estimada de entrega:</strong> <br><?=$arrPaquete->fecha_entrega;?> </div>
+                                        <div class="col"> <strong>Enviado Por:</strong> <br> <?=$arrPaquete->usuario->usuario;?>, | <i class="fa fa-phone"></i> <?=$arrPaquete->usuario->telefono;?> </div>
+                                    </div>
+                                    <div class="card-body row">
+                                        <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
+                                        <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
+                                    </div>
+                                </article>
+                                <div class="track">
+                                    <?php
+                                        foreach ($arrPaquete->seguimiento_estados as $arrEstado) {
+                                            # code...
+                                            ?>
+                                                <div class="step <?=($arrEstado->estado_activo==1)?'active':'';?>"> <span class="icon"> <i class="<?=$arrEstado->icono;?>"></i> </span> <span class="text"><?=$arrEstado->nombre;?></span> </div>
+                                            <?php
+                                        }
+                                    ?>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                <?php
+            }
+        ?>
+    </div>
 </div>
