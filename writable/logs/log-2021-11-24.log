@@ -1,0 +1,582 @@
+CRITICAL - 2021-11-24 20:34:38 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:35 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:52 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:53 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:53 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:53 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:53 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:35:53 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:26 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:27 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:27 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:27 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:27 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:36:27 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:37:06 --> Undefined variable: paquetes_online
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 3, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(32): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 20:51:07 --> Class 'App\Models\SeguimientoEstadosModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 20:51:29 --> Undefined variable: seguimientoEstados
+#0 /var/www/html/proyectoModulo6/app/Views/tienda/dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 24, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('tienda/dashboar...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(21): view('tienda/dashboar...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): layout_tienda('tienda/dashboar...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#11 {main}
+CRITICAL - 2021-11-24 21:08:14 --> Class 'App\Models\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 21:08:35 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:08:48 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:08:48 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:08:48 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:08:48 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:03 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:04 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:04 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:04 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:04 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:04 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:05 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:05 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:05 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:19 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:19 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:20 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:20 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:41 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:42 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:42 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:42 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:46 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:46 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:46 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:53 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:53 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:54 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:54 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:54 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:54 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:54 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:09:55 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:10:13 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:10:14 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:10:14 --> Class 'App\Models\Seguimiento' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-24 21:10:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:13:45 --> Class 'App\Models\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 21:13:46 --> Class 'App\Models\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 21:13:46 --> Class 'App\Models\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 21:13:46 --> Class 'App\Models\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Tienda->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-11-24 21:14:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:14:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:16:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:17:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::num_rows()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:18:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::countResultAll()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:18:42 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 39, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:19:26 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 40, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:20:03 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 39, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:20:04 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 39, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:20:04 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 39, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:20:05 --> Creating default object from empty value
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 39, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:22:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-11-24 21:23:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::get_where()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Tienda.php(31): App\Models\UtilsModel->exist_where('seguimiento', Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Tienda->index()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}

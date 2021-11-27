@@ -1,13 +1,13 @@
 <?php namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Entities\Seguimiento;
+use App\Entities\Seguimiento_estados;
 
 class SeguimientosEstadosModel extends Model
 {
   protected $table = 'seguimiento_estados';
   protected $primaryKey = 'id';
-  protected $returnType = Seguimiento::class; 
+  protected $returnType = Seguimiento_estados::class; 
   protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 'nombre', 'created_at', 'updated_at', 'deleted_at']; 
   protected $useTimestamps = true; 
