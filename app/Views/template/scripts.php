@@ -6,7 +6,7 @@
 <!-- Extra js -->
 <?php if (isset($js)): ?>
     <?php foreach ($js as $extra => $url): ?>
-        <script src="<?= base_url("assets/$url"); ?>"></script>
+        <script src="<?= base_url("public/assets/$url"); ?>"></script>
     <?php endforeach; ?>
 <?php endif; ?>
 

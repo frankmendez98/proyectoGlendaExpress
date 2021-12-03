@@ -4,7 +4,7 @@
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header center">
                         <div class="dropdown profile-element">
-                            <img alt="image" class="img_template" src="<?=base_url();?>/assets/img/logofav.jpg"/>
+                            <img alt="image" class="img_template" src="<?=base_url();?>/public/assets/img/logofav.jpg"/>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="block m-t-xs font-bold">Francisco Mendez</span>
                                 <span class="text-muted text-xs block">Administrador <b class="caret"></b></span>
