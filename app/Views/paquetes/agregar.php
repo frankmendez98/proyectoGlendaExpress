@@ -2,20 +2,20 @@
     <div id="page-wrapper" class="contenedor_principal gray-bg">
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-12">
-                <h2>Agregar Cliente</h2>
+                <h2>Agregar Pauete</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="<?=base_url();?>">Inicio</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a>Clientes</a>
+                        <a>Paquetes</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <strong>Administrar</strong>
+                        <strong>Agregar</strong>
                     </li>
                 </ol>
 
-                <a href="<?=base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Cliente</a>
+                <a href="<?=base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Paquete</a>
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">

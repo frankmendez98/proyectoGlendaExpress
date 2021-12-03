@@ -19,7 +19,7 @@ class Paquetes extends BaseController {
 		$extras = array(
 			'css' => array(),
 			'js' => array(
-			    //"js/scripts/clientes.js"
+			    "js/scripts/paquetes.js"
             ),
 		);
 		layout("paquetes/admin",$data,$extras);
