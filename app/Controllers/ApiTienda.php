@@ -7,10 +7,14 @@ use App\Models\ClientesModel;
 use App\Models\Paquetes_onlineModel;
 use App\Models\SeguimientosEstadosModel;
 use App\Models\UtilsModel;
+use CodeIgniter\RESTful\ResourceController;
 
-class Tienda extends BaseController {
+class ApiTienda extends ResourceController {
+	protected $helpers = ["layout"];
+
     public function __construct()
     {
+
         $this->clientes = new ClientesModel();
 		$this->paquetes_online = new Paquetes_onlineModel();
 		$this->seguimiento_estados = new SeguimientosEstadosModel();
@@ -59,7 +63,7 @@ class Tienda extends BaseController {
 			    "js/scripts/paquetes_online.js"
             ),
 		);
-		layout_tienda("tienda/dashboard",$data,$extras);
+		layout_api("tienda/dashboard",$data,$extras);
 	}
 	function create(){
 		$data = array(

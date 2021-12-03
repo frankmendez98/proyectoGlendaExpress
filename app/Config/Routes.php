@@ -65,7 +65,7 @@ $routes->group('paquetes', ['namespace' => 'App\Controllers'], function ($routes
  * Modulo de Tienda
  */
 $routes->group('tienda', ['namespace' => 'App\Controllers'], function ($routes) {
-    $routes->get('/', 'Tienda::index', ['as' => 'tienda_dashboard']);
+    $routes->get('/', 'ApiTienda::index', ['as' => 'tienda_dashboard']);
     $routes->get('create', 'Clientes::create', ['as' => 'agregar_cliente']);
     $routes->post('create', 'Clientes::store', ['as' => 'store_cliente']);
 });
