@@ -81,6 +81,8 @@ $routes->group('categorias', ['namespace' => 'App\Controllers'], function ($rout
     $routes->get('/', 'Categorias::index', ['as' => 'categorias']);
     $routes->get('create', 'Categorias::create', ['as' => 'agregar_categoria']);
     $routes->post('create', 'Categorias::store', ['as' => 'store_categoria']);
+    $routes->get('show/(:any)', 'Categorias::show/$1', ['as' => 'ver_categoria']);
+    $routes->get('update', 'Categorias::update', ['as' => 'actualizar_categoria']);
 });
 
 /**

@@ -60,6 +60,35 @@ class Categorias extends BaseController {
 		}
 		echo json_encode($xdatos);
 	}
+	function show($id){
+		$encabezado = $this->categorias->find($id);
+		$data = array(
+			"encabezado" => $encabezado,
+            "titulo"=> "Categorias",
+			"icono"=> "mdi mdi-format-list-bulleted",
+		);
+		$extras = array(
+			'css' => array(),
+			'js' => array(
+			    "js/scripts/categorias.js"
+            ),
+		);
+		layout("categorias/editar",$data,$extras);
+	}
+	function update(){
+		$form = $this->request->getPost();
+		if($this->categorias->save($form)){
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo actualizado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al actualizar el registro";
+		}
+		echo json_encode($xdatos);
+	}
 	function destroy(){
 		$id = $this->request->getPost('id');
 		//echo $id;

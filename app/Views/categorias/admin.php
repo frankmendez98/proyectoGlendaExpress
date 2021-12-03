@@ -51,6 +51,7 @@
                                                                         Menu
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                        <a class="dropdown-item" href="<?=base_url(route_to('ver_categoria', $arrCategoria->id));?>">Editar</a>
                                                                         <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrCategoria->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>

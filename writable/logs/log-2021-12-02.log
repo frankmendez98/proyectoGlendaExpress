@@ -1,0 +1,31 @@
+CRITICAL - 2021-12-02 19:46:32 --> Too few arguments to function App\Controllers\Categorias::show(), 0 passed in /var/www/html/proyectoModulo6/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->show()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#5 {main}
+CRITICAL - 2021-12-02 19:47:33 --> Object of class App\Entities\Categoria could not be converted to string
+#0 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/p...', 65, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->show('2')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-12-02 19:47:34 --> Object of class App\Entities\Categoria could not be converted to string
+#0 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/p...', 65, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->show('2')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
+CRITICAL - 2021-12-02 19:47:35 --> Object of class App\Entities\Categoria could not be converted to string
+#0 /var/www/html/proyectoModulo6/app/Controllers/Categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/p...', 65, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Categorias->show('2')
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/proyectoModulo6/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/p...')
+#6 {main}
