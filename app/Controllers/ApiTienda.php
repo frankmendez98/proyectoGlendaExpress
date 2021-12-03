@@ -20,6 +20,41 @@ class ApiTienda extends ResourceController {
 		$this->seguimiento_estados = new SeguimientosEstadosModel();
 		$this->utils = new UtilsModel();
     }
+	public function get_datos_seguimiento(){
+
+		$clientes = $this->clientes->findAll();
+		$paquetesOnline = $this->paquetes_online->findAll();
+
+		foreach ($paquetesOnline as $keyP => $arrPaquete) {
+			# code...
+			$seguimientoEstados = $this->seguimiento_estados->findAll();
+			$estadoActual = "";
+
+			foreach ($seguimientoEstados as $key => $arrSeguimiento) {
+				# code...
+				//Procedemos a validar si el estado se encuentra asociado a la orden
+				$validarEstado = $this->utils->exist_where("seguimiento", array("id_orden" => $arrPaquete->id, "id_estado" => $arrSeguimiento->id));
+				//echo $arrSeguimiento->id;
+				//echo $validarEstado;
+				if($validarEstado){
+					$seguimientoEstados[$key]->estado_activo = 1;
+					$estadoActual = $arrSeguimiento->nombre;//Sobreescribimos hasta encontrar el ultimo estado que ha sido asignado a la orden
+				}
+				else{
+					$seguimientoEstados[$key]->estado_activo = 0;
+				}
+			}
+			$paquetesOnline[$keyP]->seguimiento_estados = $seguimientoEstados;//Almacenamos el objeto seguimiento modificado
+			$paquetesOnline[$keyP]->estado_actual = $estadoActual;//Almacenamos el estado final que posee la orden
+		}
+
+		$data = array(
+			"clientes" => $clientes,
+			"paquetes_online" => $paquetesOnline,
+			"seguimiento_estados" => $seguimientoEstados,
+		);
+		return json_encode($data);
+	}
 
 	public function index()
 	{
@@ -79,13 +114,12 @@ class ApiTienda extends ResourceController {
 		layout("clientes/agregar",$data,$extras);
 	}
 	function store(){
-		$form = [
-            'nombre' => $this->request->getPost('nombre'),
-			'direccion' => $this->request->getPost('direccion'),
-			'telefono' => $this->request->getPost('telefono'),
-        ];
-
-		if ($this->clientes->save($form)) {
+		$form = $this->request->getPost();
+		$form['id_usuario'] = 1;
+        
+        //var_dump($form);
+        //$this->paquetes->save($form);
+        if ($this->paquetes_online->save($form)) {
 			$xdatos["type"]="success";
 			$xdatos['title']='Información';
 			$xdatos["msg"]="Registo ingresado correctamente!";
@@ -95,7 +129,7 @@ class ApiTienda extends ResourceController {
 			$xdatos['title']='Alerta';
 			$xdatos["msg"]="Error al ingresar el registro";
 		}
-		echo json_encode($xdatos);
+        echo json_encode($xdatos);
 	}
 	function destroy(){
 		$id = $this->request->getPost('id');

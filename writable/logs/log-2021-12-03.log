@@ -106,3 +106,17 @@ CRITICAL - 2021-12-03 10:24:19 --> Call to undefined function App\Controllers\la
 #2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2021-12-03 11:39:40 --> Array to string conversion
+#0 /var/www/html/proyectoModulo6/app/Controllers/ApiTienda.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/p...', 55, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\ApiTienda->get_datos_seguimiento()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiTienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 13:17:38 --> Undefined property: App\Controllers\ApiTienda::$paquetes
+#0 /var/www/html/proyectoModulo6/app/Controllers/ApiTienda.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\ApiTienda->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiTienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
