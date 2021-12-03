@@ -2,7 +2,7 @@
     <div id="page-wrapper" class="contenedor_principal gray-bg">
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-12">
-                <h2>Agregar Cliente</h2>
+                <h2>Administracion de Clientes</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="<?=base_url();?>">Inicio</a>
@@ -22,7 +22,7 @@
             <form action="" id="form_add">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h5>Agregar Cliente</h5>
+                        <h5>Administracion de Clientes</h5>
                     </div>
                     <div class="ibox-content">
                         <div class="row">
@@ -51,6 +51,7 @@
                                                                         Menu
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                        <a class="dropdown-item" href="<?=base_url(route_to('ver_cliente', $arrCliente->id));?>">Editar</a>
                                                                         <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrCliente->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>

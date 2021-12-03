@@ -33,7 +33,7 @@ class Clientes extends BaseController {
 	}
 	function create(){
 		$data = array(
-            "titulo"=> "Categorias",
+            "titulo"=> "Clientes",
 			"icono"=> "mdi mdi-format-list-bulleted",
 		);
 		$extras = array(
@@ -43,6 +43,35 @@ class Clientes extends BaseController {
             ),
 		);
 		layout("clientes/agregar",$data,$extras);
+	}
+	function show($id){
+		$encabezado = $this->clientes->find($id);
+		$data = array(
+			"encabezado" => $encabezado,
+            "titulo"=> "Clientes",
+			"icono"=> "mdi mdi-format-list-bulleted",
+		);
+		$extras = array(
+			'css' => array(),
+			'js' => array(
+			    "js/scripts/clientes.js"
+            ),
+		);
+		layout("clientes/editar",$data,$extras);
+	}
+	function update(){
+		$form = $this->request->getPost();
+		if($this->clientes->save($form)){
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo actualizado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al actualizar el registro";
+		}
+		echo json_encode($xdatos);
 	}
 	function store(){
 		$form = [

@@ -1,5 +1,6 @@
 <?php
 namespace App\Controllers;
+use App\Models\PaquetesModel;
 
 class Paquetes extends BaseController {
 	public function __construct()
@@ -8,8 +9,10 @@ class Paquetes extends BaseController {
     }
 	public function index()
 	{
+		$paquetes = $this->paquetes->findAll();
+
 		$data = array(
-			"titulo"=> "Clientes",
+			"titulo"=> "Paquetes",
 			"icono"=> "mdi mdi-account-group",
 			
 		);
@@ -19,6 +22,6 @@ class Paquetes extends BaseController {
 			    //"js/scripts/clientes.js"
             ),
 		);
-		layout("paquetes/agregar",$data,$extras, $this);
+		layout("paquetes/admin",$data,$extras);
 	}
 }

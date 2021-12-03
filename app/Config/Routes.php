@@ -46,6 +46,8 @@ $routes->group('clientes', ['namespace' => 'App\Controllers'], function ($routes
     $routes->get('/', 'Clientes::index', ['as' => 'clientes']);
     $routes->get('create', 'Clientes::create', ['as' => 'agregar_cliente']);
     $routes->post('create', 'Clientes::store', ['as' => 'store_cliente']);
+    $routes->get('show/(:any)', 'Clientes::show/$1', ['as' => 'ver_cliente']);
+    $routes->get('update', 'Clientes::update', ['as' => 'actualizar_cliente']);
 });
 
 /**

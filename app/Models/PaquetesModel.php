@@ -3,7 +3,7 @@
 use CodeIgniter\Model;
 use App\Entities\Cliente;
 
-class ClientesModel extends Model
+class PaquetesModel extends Model
 {
   protected $table = 'paquetes';
   protected $primaryKey = 'id';
