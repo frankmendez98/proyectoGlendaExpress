@@ -56,4 +56,48 @@ class Paquetes extends BaseController {
 		}
         echo json_encode($xdatos);
 	}
+	function show($id){
+		$encabezado = $this->paquetes->find($id);
+		$data = array(
+			"encabezado" => $encabezado,
+            "titulo"=> "Paquetes",
+			"icono"=> "mdi mdi-format-list-bulleted",
+		);
+		$extras = array(
+			'css' => array(),
+			'js' => array(
+			    "js/scripts/paquetes.js"
+            ),
+		);
+		layout("paquetes/editar",$data,$extras);
+	}
+	function update(){
+		$form = $this->request->getPost();
+		if($this->paquetes->save($form)){
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo actualizado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al actualizar el registro";
+		}
+		echo json_encode($xdatos);
+	}
+	function destroy(){
+		$id = $this->request->getPost('id');
+		//echo $id;
+		if ($this->paquetes->delete($id)) {
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo eliminado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al eliminar registro";
+		}
+		echo json_encode($xdatos);
+	}
 }
