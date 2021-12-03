@@ -85,12 +85,20 @@
                                         <th>Producto</th>
                                         <th>Peso</th>
                                         <th>Peso($)</th>
-                                        <th>Subtotal</th>
+                                        <th style="width: 15%;">Subtotal</th>
                                     </tr>
                                 </thead>
                                 <tbody class="tbody_tr">
                                     
                                 </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Total:</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><input readonly type="text" class="total form-control" name="total"></td>
+                                    </tr>
+                                </tfoot>
                             </table>
                         </div>
                         <div class="row">
