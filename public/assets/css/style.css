@@ -10148,3 +10148,6 @@ p {
     border-color: #ff2b00;
     border-radius: 1px
 }
+.nav > li > a{
+  background-color: #2F4050;
+}

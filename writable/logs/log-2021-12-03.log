@@ -224,3 +224,39 @@ CRITICAL - 2021-12-03 13:53:37 --> Unknown column 'ordenes.deleted_at' in 'where
 #9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
 #11 {main}
+CRITICAL - 2021-12-03 14:02:04 --> Class 'App\Controllers\ClientesModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes_normales->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 14:08:49 --> Class 'App\Controllers\PaquetesModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes_normales->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 14:10:22 --> Undefined variable: productos
+#0 /var/www/html/proyectoModulo6/app/Views/paquetes_normales/agregar.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 62, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_normal...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_normal...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(52): layout('paquetes_normal...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->create()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 14:10:23 --> Undefined variable: productos
+#0 /var/www/html/proyectoModulo6/app/Views/paquetes_normales/agregar.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 62, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('paquetes_normal...', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Helpers/layout_helper.php(9): view('paquetes_normal...', Array)
+#5 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(52): layout('paquetes_normal...', Array, Array)
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->create()
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

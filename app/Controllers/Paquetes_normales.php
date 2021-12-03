@@ -4,12 +4,15 @@ use App\Controllers\BaseController;
 
 use CodeIgniter\Model;
 use App\Models\Paquetes_normalesModel;
-
+use App\Models\PaquetesModel;
+use App\Models\ClientesModel;
 
 class Paquetes_normales extends BaseController {
     public function __construct()
     {
         $this->paquetes = new Paquetes_normalesModel();
+        $this->clientes = new ClientesModel();
+        $this->paquetes = new PaquetesModel();
     }
 
 	public function index()
@@ -32,17 +35,21 @@ class Paquetes_normales extends BaseController {
 		layout("paquetes_normales/admin",$data,$extras);
 	}
 	function create(){
+        $paquetes = $this->paquetes->findAll();
+        $clientes = $this->clientes->findAll();
 		$data = array(
             "titulo"=> "Categorias",
 			"icono"=> "mdi mdi-format-list-bulleted",
+            "clientes" => $clientes,
+            "paquetes" => $paquetes,
 		);
 		$extras = array(
 			'css' => array(),
 			'js' => array(
-			    "js/scripts/paquetes_online.js"
+			    "js/scripts/paquetes_normales.js"
             ),
 		);
-		layout_tienda("paquetes_online/agregar",$data,$extras);
+		layout("paquetes_normales/agregar",$data,$extras);
 	}
 	function store(){
         //var_dump($this->request->getJSON());

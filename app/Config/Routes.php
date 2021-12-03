@@ -66,7 +66,7 @@ $routes->group('paquetes', ['namespace' => 'App\Controllers'], function ($routes
  */
 $routes->group('paquetes_normales', ['namespace' => 'App\Controllers'], function ($routes) {
     $routes->get('/', 'Paquetes_normales::index', ['as' => 'paquetes_normales']);
-    $routes->post('create', 'Paquetes::create', ['as' => 'agregar_paquete']);
+    $routes->post('create', 'Paquetes_normales::create', ['as' => 'agregar_paquete_normal']);
     $routes->post('create', 'Paquetes::store', ['as' => 'store_paquete']);
     $routes->get('show/(:any)', 'Paquetes::show/$1', ['as' => 'ver_paquete']);
     $routes->get('update', 'Paquetes::update', ['as' => 'actualizar_paquete']);

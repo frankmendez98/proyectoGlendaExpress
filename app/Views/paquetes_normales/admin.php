@@ -15,7 +15,7 @@
                     </li>
                 </ol>
 
-                <a href="<?=base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Cliente</a>
+                <a href="<?=base_url(route_to('agregar_paquete_normal'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Orden</a>
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
