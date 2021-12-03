@@ -2,7 +2,7 @@
     <div id="page-wrapper" class="contenedor_principal gray-bg">
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-12">
-                <h2>Agregar Pauete</h2>
+                <h2>Agregar Paquete</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="<?=base_url();?>">Inicio</a>
@@ -15,54 +15,32 @@
                     </li>
                 </ol>
 
-                <a href="<?=base_url(route_to('agregar_cliente'));?>" class="btn btn-primary btn_agregar_admin"><i class="fa fa-plus"></i> Agregar Paquete</a>
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <form action="" id="form_add">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h5>Agregar Cliente</h5>
+                        <h5>Agregar Paquete</h5>
                     </div>
                     <div class="ibox-content">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="row">
-                                    <div class="col-lg-12">
-                                        <table class="table" id="tabla">
-                                            <thead>
-                                                <tr>
-                                                    <th>ID</th>
-                                                    <th style="width: 60%;">Nombre</th>
-                                                    <th style="width: 20%;">Accion</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                            <?php
-                                                foreach ($clientes as $arrCliente) {
-                                                    # code...
-                                                    ?>
-                                                        <tr>
-                                                            <td><?=$arrCliente->id;?></td>
-                                                            <td><?=$arrCliente->nombre;?></td>
-                                                            <td>
-                                                                <div class="dropdown">
-                                                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                        Menu
-                                                                    </button>
-                                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                                        <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrCliente->id;?>">Eliminar</a>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    <?php
-                                                }
-                                            ?>
-                                            </tbody>
-                                        </table>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">Nombre</label>
+                                            <input required type="text" class="form-control" name="nombre" placeholder="Ingrese nombre">
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-actions col-lg-12">
+                                <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="mdi mdi-content-save"></i>
+                                    Guardar Registro
+                                </button>
                             </div>
                         </div>
                     </div>

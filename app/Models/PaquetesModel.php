@@ -1,13 +1,13 @@
 <?php namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Entities\Cliente;
+use App\Entities\Paquete;
 
 class PaquetesModel extends Model
 {
   protected $table = 'paquetes';
   protected $primaryKey = 'id';
-  protected $returnType = Cliente::class; 
+  protected $returnType = Paquete::class; 
   protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 
                               'nombre', 
