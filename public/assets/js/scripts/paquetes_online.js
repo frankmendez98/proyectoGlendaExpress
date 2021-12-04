@@ -65,6 +65,15 @@ $("#form_add").on('submit', function(e){
     }
 });
 
+$("#form_edit").on('submit', function(e){
+    e.preventDefault();
+    $(this).parsley().validate();
+    if ($(this).parsley().isValid()){
+        $("#btn_add").prop("disabled",true)
+        edit_data();
+    }
+});
+
 function save_data(){
     let form = $("#form_add");
 	let formdata = false;
@@ -75,6 +84,30 @@ function save_data(){
 	$.ajax({
 		type: 'POST',
 		url: url+'store',
+		cache: false,
+		data: formdata ? formdata : form.serialize(),
+		contentType: false,
+		processData: false,
+		dataType: 'json',
+		success: function (data) {
+			notification(data.type,data.title,data.msg);
+			if (data.type == "success") {
+				//setTimeout("reload();", 1500);
+			}
+		}
+	});
+}
+
+function edit_data(){
+    let form = $("#form_edit");
+	let formdata = false;
+	if (window.FormData) {
+		formdata = new FormData(form[0]);
+	}
+
+	$.ajax({
+		type: 'POST',
+		url: url+'update',
 		cache: false,
 		data: formdata ? formdata : form.serialize(),
 		contentType: false,

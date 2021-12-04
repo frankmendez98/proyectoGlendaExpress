@@ -95,6 +95,21 @@ class Paquetes_online extends BaseController {
 		);
 		layout("paquetes_online/ver_orden",$data,$extras);
 	}
+	function update(){
+		$form = $this->request->getPost();
+		$form['estado'] = 1;
+		if($this->paquetes->save($form)){
+			$xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Registo actualizado correctamente!";
+		}
+		else{
+			$xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al actualizar el registro";
+		}
+		echo json_encode($xdatos);
+	}
 	function destroy(){
 		$id = $this->request->getPost('id');
 		//echo $id;

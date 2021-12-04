@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
-            <form action="" id="form_add">
+            <form action="" id="form_edit">
                 <div class="ibox ">
                     <div class="ibox-title">
                         <h5>Datos Orden Online</h5>
@@ -47,7 +47,7 @@
                                     <div class="col-sm-3">
                                         <div class="form-group">
                                             <label for="">Total Orden</label>
-                                            <input required type="text" name="precio_pedido" class="form-control" value="" placeholder="Ingrese monto a cobrar">
+                                            <input required type="text" name="total_facturar" class="form-control" value="" placeholder="Ingrese monto a cobrar">
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,8 @@
                         
                         <div class="row">
                             <div class="form-actions col-lg-12">
-                            <input type="hidden" name="id_cliente" value="<?=$encabezado->id_usuario;?>">
+                            <input type="hidden" name="id" value="<?=$encabezado->id;?>">
+                            <input type="hidden" name="id_usuario" value="<?=$encabezado->id_usuario;?>">
                                 <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="fa fa-upload"></i>
                                     Actualizar Registro
                                 </button>

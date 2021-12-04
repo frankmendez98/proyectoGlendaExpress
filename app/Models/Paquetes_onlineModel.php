@@ -12,10 +12,13 @@ class Paquetes_onlineModel extends Model
   protected $allowedFields = ['id', 
                               'id_usuario',
                               'numero_seguimiento', 
+                              'total_facturar', 
                               'fecha_entrega', 
                               'descripcion', 
                               'cantidad', 
                               'precio_pedido', 
+                              'estado',
+                              'eliminado',  
                               'created_by',
                               'updated_by',
                               'deleted_by',]; 
