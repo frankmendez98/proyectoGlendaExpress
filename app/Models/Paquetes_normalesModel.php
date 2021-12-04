@@ -1,15 +1,24 @@
 <?php namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Entities\Paquete_online;
+use App\Entities\Paquete_normal;
 
 class Paquetes_normalesModel extends Model
 {
   protected $table = 'ordenes';
   protected $primaryKey = 'id';
-  protected $returnType = Paquete_online::class; 
+  protected $returnType = Paquete_normal::class; 
   protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 
+                              'id_orden',
+                              'id_cliente',
+                              'precio_pedido',
+                              'envia',
+                              'recibe',
+                              'direccion_entrega',
+                              'numero_seguimiento',
+                              'fecha',
+                              'hora',
                               'id_usuario',
                               'created_by',
                               'updated_by',

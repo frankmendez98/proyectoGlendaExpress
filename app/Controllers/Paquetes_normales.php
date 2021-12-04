@@ -6,18 +6,21 @@ use CodeIgniter\Model;
 use App\Models\Paquetes_normalesModel;
 use App\Models\PaquetesModel;
 use App\Models\ClientesModel;
+use App\Models\UtilsModel;
 
 class Paquetes_normales extends BaseController {
     public function __construct()
     {
-        $this->paquetes = new Paquetes_normalesModel();
+        $this->utils = new UtilsModel();
+
+        $this->paquetes_normales = new Paquetes_normalesModel();
         $this->clientes = new ClientesModel();
         $this->paquetes = new PaquetesModel();
     }
 
 	public function index()
 	{
-		$paquetes = $this->paquetes->findAll();
+		$paquetes = $this->paquetes_normales->findAll();
 		//dd($clientes);
 		//var_dump($clientes);
 		
@@ -53,12 +56,40 @@ class Paquetes_normales extends BaseController {
 	}
 	function store(){
         //var_dump($this->request->getJSON());
-        $form = $this->request->getPost();
-        $form['id_usuario'] = 1;
-        
+        $form = ["id_usuario" => 1,
+                      "id_cliente" => $this->request->getPost("id_cliente"),
+                      "precio_pedido" => $this->request->getPost("total"),
+					  "envia" => $this->request->getPost("envia"),
+					  "recibe" => $this->request->getPost("recibe"),
+					  "direccion_entrega" => $this->request->getPost("direccion_entrega"),
+					  "numero_seguimiento" => uniqid(),
+                      "fecha" => date("Y-m-d"),
+                      "hora" => date("H:i:s"),
+    	];
+
         //var_dump($form);
         //$this->paquetes->save($form);
-        if ($this->paquetes->save($form)) {
+        if ($this->paquetes_normales->save($form)) {
+            $datos = json_decode($this->request->getVar("datosForm"));
+
+            $idOrden=$this->paquetes_normales->getInsertID();
+
+            foreach ($datos as $arrDatos) {
+                # code...
+                $idProducto = $arrDatos->id_producto;
+                $peso = $arrDatos->peso;
+                $pesoDolares = $arrDatos->peso_dolares;
+                $subtotal = $arrDatos->subtotal;
+                
+                $form = array("id_orden" => $idOrden,
+                              "id_producto" => $idProducto,
+							  "precio" => $pesoDolares,
+                              "cantidad" => 1,
+                              "peso" => $peso,
+							  "subtotal" => $subtotal,);
+                $update = $this->utils->_insert("ordenes_detalle", $form);
+            }
+
 			$xdatos["type"]="success";
 			$xdatos['title']='Información';
 			$xdatos["msg"]="Registo ingresado correctamente!";

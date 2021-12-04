@@ -33,7 +33,8 @@
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
-                                                    <th style="width: 60%;">Nombre</th>
+                                                    <th style="width: 20%;">Envia</th>
+                                                    <th style="width: 20%;">Recibe</th>
                                                     <th style="width: 20%;">Accion</th>
                                                 </tr>
                                             </thead>
@@ -44,7 +45,8 @@
                                                     ?>
                                                         <tr>
                                                             <td><?=$arrDetalle->id;?></td>
-                                                            <td><?=$arrDetalle->nombre;?></td>
+                                                            <td><?=$arrDetalle->envia;?></td>
+                                                            <td><?=$arrDetalle->recibe;?></td>
                                                             <td>
                                                                 <div class="dropdown">
                                                                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,7 +54,6 @@
                                                                     </button>
                                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                                         <a class="dropdown-item" href="<?=base_url(route_to('ver_cliente', $arrDetalle->id));?>">Editar</a>
-                                                                        <a class="dropdown-item eliminar_elemento" id_detalle="<?=$arrDetalle->id;?>">Eliminar</a>
                                                                     </div>
                                                                 </div>
                                                             </td>

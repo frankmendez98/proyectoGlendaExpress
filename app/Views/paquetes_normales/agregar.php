@@ -29,12 +29,12 @@
                                     <div class="col-sm-4">
                                         <div class="form-group">
                                             <label for="">Cliente</label>
-                                            <select name="cliente" class="form-control select2" id="cliente">
+                                            <select name="id_cliente" class="form-control select2" id="id_cliente">
                                             <?php
                                                 foreach ($clientes as $arrCliente) {
                                                     # code...
                                                     ?>
-                                                        <option value=""><?=$arrCliente->nombre;?></option>
+                                                        <option value="<?=$arrCliente->id;?>"><?=$arrCliente->nombre;?></option>
                                                     <?php
                                                 }
                                             ?>
@@ -53,6 +53,26 @@
                                             <input required type="text" name="direccion_entrega" class="form-control" placeholder="Ingrese direccion de entrega">
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="">Envia</label>
+                                            <input required type="text" name="envia" class="form-control" placeholder="Ingrese quien envia">
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="">Recibe</label>
+                                            <input required type="text" name="recibe" class="form-control" placeholder="Ingrese quien recibe">
+                                        </div>
+                                    </div>  
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="">Fecha Entrega</label>
+                                            <input required type="text" name="fecha_entrega" class="form-control" placeholder="">
+                                        </div>
+                                    </div>       
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4">
@@ -103,6 +123,7 @@
                         </div>
                         <div class="row">
                             <div class="form-actions col-lg-12">
+                            <input type="hidden" name="datosForm" id="datosForm">
                                 <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="mdi mdi-content-save"></i>
                                     Guardar Registro
                                 </button>

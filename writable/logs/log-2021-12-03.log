@@ -260,3 +260,319 @@ CRITICAL - 2021-12-03 14:10:23 --> Undefined variable: productos
 #8 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
 #10 {main}
+CRITICAL - 2021-12-03 14:45:23 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(66): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:46:25 --> Class 'App\Controllers\UtilsModel' not found
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(801): App\Controllers\Paquetes_normales->__construct()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 14:46:38 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:06 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:17 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:18 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:18 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:18 --> Declaration of App\Models\UtilsModel::update($table_name, $form_data, $where_clause) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 14:47:35 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(69): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:48:03 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(69): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:48:57 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(70): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:49:45 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(69): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:57:03 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:58:20 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:59:11 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 14:59:32 --> Undefined variable: paquetes
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 71, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:00:07 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(64): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 15:00:58 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 15:01:25 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 19:17:06 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 19:23:46 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 19:24:42 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(68): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 19:55:02 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(72): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 19:55:20 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(72): CodeIgniter\Model->insert(Array)
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 19:56:35 --> There is no data to insert.
+#0 /var/www/html/proyectoModulo6/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(72): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 20:00:03 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:00 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:00 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:01 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:13 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:14 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:14 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:32 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:01:33 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-03 20:01:54 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`ordenes`, CONSTRAINT `ordenes_ibfk_2` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id`))
+CRITICAL - 2021-12-03 20:01:54 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`ordenes`, CONSTRAINT `ordenes_ibfk_2` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id`))
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(72): CodeIgniter\BaseModel->save(Array)
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-03 20:02:37 --> Undefined variable: paquetes_normales
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 75, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 20:03:11 --> Undefined variable: paquetes_normales
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 75, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 20:03:26 --> Invalid argument supplied for foreach()
+#0 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/p...', 77, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 20:03:48 --> Cannot use object of type stdClass as array
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 20:04:03 --> Cannot use object of type stdClass as array
+#0 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-03 20:04:24 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`ordenes_detalle`, CONSTRAINT `ordenes_detalle_ibfk_2` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id`))
+CRITICAL - 2021-12-03 20:04:24 --> Cannot add or update a child row: a foreign key constraint fails (`glenda_express`.`ordenes_detalle`, CONSTRAINT `ordenes_detalle_ibfk_2` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id`))
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO ord...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /var/www/html/proyectoModulo6/app/Models/UtilsModel.php(30): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(88): App\Models\UtilsModel->_insert('ordenes_detalle', Array)
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-03 20:05:46 --> Column 'id_cliente' cannot be null
+CRITICAL - 2021-12-03 20:05:46 --> Column 'id_cliente' cannot be null
+#0 /var/www/html/proyectoModulo6/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /var/www/html/proyectoModulo6/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /var/www/html/proyectoModulo6/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /var/www/html/proyectoModulo6/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/proyectoModulo6/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/proyectoModulo6/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/proyectoModulo6/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /var/www/html/proyectoModulo6/app/Controllers/Paquetes_normales.php(72): CodeIgniter\BaseModel->save(Array)
+#9 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Paquetes_normales->store()
+#10 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paquetes_normales))
+#11 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-03 20:09:52 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:09:53 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:09:53 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 20:10:35 --> Class 'App\Models\Paquete_online' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
