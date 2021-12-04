@@ -20,7 +20,7 @@
                         </div>
                     </li>
                     <li class="">
-                        <a href="<?=base_url(route_to('tienda_dashboard'));?>"><i class="fa fa-cart-plus"></i> <span class="nav-label">Ir a Tienda</span> <span class="fa arrow"></span></a>
+                        <a href="http://localhost/tiendaProyectoModulo6/tienda"><i class="fa fa-cart-plus"></i> <span class="nav-label">Ir a Tienda</span> <span class="fa arrow"></span></a>
                         
                     </li>
                     <li class="">

@@ -57,6 +57,8 @@
 <script src="<?=base_url("public/assets/libs/sweetalert2/sweetalert2.min.js")?>"></script>
 
 <script src="<?= base_url("public/assets/libs/dropify/dropify.min.js"); ?>"></script>
+<script src="<?= base_url("public/assets/libs/datapicker/bootstrap-datepicker.min.js"); ?>"></script>
+<script src="<?= base_url("public/assets/libs/datapicker/boostrap-datepicker.es.min.js"); ?>"></script>
 
         <div class='modal  fade' id='viewModal' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
             <div class='modal-dialog modal-lg'>

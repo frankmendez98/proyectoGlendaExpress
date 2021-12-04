@@ -70,7 +70,7 @@
                                     <div class="col-sm-4">
                                         <div class="form-group">
                                             <label for="">Fecha Entrega</label>
-                                            <input required type="text" name="fecha_entrega" class="form-control" placeholder="">
+                                            <input required type="text" name="fecha_entrega" class="form-control datepicker" placeholder="">
                                         </div>
                                     </div>       
                                 </div>

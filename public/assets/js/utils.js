@@ -8,6 +8,13 @@ $(document).ready(function(){
         decimalPlaces: 2
     });
     $('.select2').select2();
+
+    $(".datepicker").datepicker({
+        format: 'yyyy-mm-dd',
+        language: 'es',
+        orientation: "bottom auto",
+        autoclose: true
+    }).datepicker("setDate", new Date());
 });
 function notification(type, title, message){
     if(type=="success" || type=="Success"){

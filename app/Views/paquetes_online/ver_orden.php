@@ -26,22 +26,28 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <div class="form-group">
                                             <label for="">Cliente</label>
-                                            <input required type="text" name="direccion" class="form-control" value="<?=$encabezado->usuario->usuario;?>" placeholder="Ingrese direccion">
+                                            <input required type="text" name="" class="form-control" value="<?=$encabezado->usuario->usuario;?>" placeholder="Ingrese direccion">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <div class="form-group">
                                             <label for="">Numero Seguimiento</label>
-                                            <input required type="text" name="nombre" class="form-control" value="<?=$encabezado->numero_seguimiento;?>" placeholder="Ingrese nombre">
+                                            <input required type="text" name="numero_seguimiento" class="form-control" value="<?=$encabezado->numero_seguimiento;?>" placeholder="Ingrese nombre">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <div class="form-group">
                                             <label for="">Fecha Entrega</label>
-                                            <input required type="text" name="nombre" class="form-control" value="<?=$encabezado->fecha_entrega;?>" placeholder="Ingrese nombre">
+                                            <input required type="text" name="fecha_entrega" class="form-control datepicker" value="<?=$encabezado->fecha_entrega;?>" placeholder="Ingrese nombre">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="">Total Orden</label>
+                                            <input required type="text" name="precio_pedido" class="form-control" value="" placeholder="Ingrese monto a cobrar">
                                         </div>
                                     </div>
                                 </div>
@@ -67,15 +73,16 @@
                                 </div>
                             </div>
                         </div>
-                        <!--
+                        
                         <div class="row">
                             <div class="form-actions col-lg-12">
+                            <input type="hidden" name="id_cliente" value="<?=$encabezado->id_usuario;?>">
                                 <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="fa fa-upload"></i>
                                     Actualizar Registro
                                 </button>
                             </div>
                         </div>
-                        -->
+                        
                     </div>
                 </div>           
             </form>

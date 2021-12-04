@@ -24,6 +24,7 @@
 	<link href="<?= base_url('public/assets/libs/select2/select2.min.css'); ?>" rel="stylesheet">
 	<link href="<?= base_url('public/assets/libs/sweetalert2/sweetalert2.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url("public/assets/libs/dropify/dropify.min.css"); ?>" rel="stylesheet">
+    <link href="<?= base_url("public/assets/libs/datapicker/boostrap-datepicker.min.css"); ?>" rel="stylesheet">
 
     <script>var base_url = '<?php echo base_url() ?>'</script>
 </head>
