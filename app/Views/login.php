@@ -32,20 +32,20 @@
                             <div class="col-lg-12">
                                 <div class="form-group">
                                     <label for="">Nombre de Usuario</label>
-                                    <input type="text" class="form-control" placeholder="Ingrese nombre de usuario" name="usuario">
+                                    <input required type="text" class="form-control" placeholder="Ingrese nombre de usuario" name="usuario">
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
                                     <label for="">Password</label>
-                                    <input type="text" class="form-control" name="password">
+                                    <input required type="text" class="form-control" placeholder="Ingrese password" name="password">
                                 </div>
                             </div>
                         </div>
                         
                         <div class="row">
                             <div class="form-actions col-lg-12">
-                                <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="fa fa-upload"></i>
+                                <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="fa fa-save"></i>
                                     Iniciar Sesion
                                 </button>
                             </div>
@@ -57,3 +57,5 @@
         </div>
     </div>
 </div>
+
+<script src="<?=base_url("assets/js/scripts/");?>"></script>
