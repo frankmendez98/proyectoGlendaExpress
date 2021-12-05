@@ -19,3 +19,14 @@ CRITICAL - 2021-12-04 10:14:50 --> Undefined variable: seguimientoEstados
 #3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-12-04 18:37:07 --> Undefined variable: encabezado
+#0 /var/www/html/proyectoModulo6/app/Views/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 32, Array)
+#1 /var/www/html/proyectoModulo6/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/proyectoModulo6/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/proyectoModulo6/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /var/www/html/proyectoModulo6/app/Controllers/Login.php(25): view('login')
+#5 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
