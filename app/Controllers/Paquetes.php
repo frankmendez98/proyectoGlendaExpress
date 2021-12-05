@@ -1,11 +1,13 @@
 <?php
 namespace App\Controllers;
 use App\Models\PaquetesModel;
+use App\Models\CategoriasModel;
 
 class Paquetes extends BaseController {
 	public function __construct()
     {
         $this->paquetes = new PaquetesModel();
+		$this->categorias = new CategoriasModel();
     }
 	public function index()
 	{
@@ -16,9 +18,10 @@ class Paquetes extends BaseController {
 
 		}
 		$paquetes = $this->paquetes->findAll();
-
+		$categorias = $this->categorias->findAll();
 		$data = array(
 			"paquetes" => $paquetes,
+			"categorias" => $categorias,
 			"titulo"=> "Paquetes",
 			"icono"=> "mdi mdi-account-group",
 			
