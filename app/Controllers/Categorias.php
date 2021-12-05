@@ -14,6 +14,13 @@ class Categorias extends BaseController {
 
 	public function index()
 	{
+		if(isset(session()->id_usuario)){
+			//echo "existe";
+		}
+		else{
+			//echo "no existe";
+		}
+
 		$categorias = $this->categorias->findAll();
 		//dd($clientes);
 		//var_dump($clientes);

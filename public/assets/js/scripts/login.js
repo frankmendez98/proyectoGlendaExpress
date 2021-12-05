@@ -31,5 +31,5 @@ function save_data(){
     });
 }
 function reload() {
-	location.href = base_url+"ventas";
+	location.href = base_url+"/";
 }

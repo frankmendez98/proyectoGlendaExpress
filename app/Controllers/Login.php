@@ -11,6 +11,7 @@ class Login extends BaseController {
     public function __construct()
     {
         $this->utils = new UtilsModel();
+        $this->session= \Config\Services::session();
 
         session();
         //$this->model = model('UsersModel');
@@ -19,8 +20,8 @@ class Login extends BaseController {
     }
 	public function index()
 	{
-        $encrypt = new Encryption();
-        echo $encrypt->encrypt("admin$", "1234");
+        //$encrypt = new Encryption();
+        //echo $encrypt->encrypt("admin$", "1234");
 		
         $data = array(
 			"titulo"=> "Clientes",
@@ -52,11 +53,23 @@ class Login extends BaseController {
         //var_dump($usuarioRow);
         
         if($usuario == $usuarioBase && $password == $passwordBase){
-            echo "1";
+            $user_session = array(
+                'id_usuario'=>$usuarioRow->id,
+                'usuario'  => $usuarioRow->usuario,
+                'logged_in' => TRUE
+            );
+            session()->set($user_session);
+
+            $xdatos["type"]="success";
+			$xdatos['title']='Información';
+			$xdatos["msg"]="Bienvenido!";
         }
         else{
-            echo "0";
+            $xdatos["type"]="error";
+			$xdatos['title']='Alerta';
+			$xdatos["msg"]="Error al inciar sesion";
         }
+        echo json_encode($xdatos);
         //$prueba =  $encrypter->encrypt("hola");
         
         //echo $encrypter->decrypt($prueba);

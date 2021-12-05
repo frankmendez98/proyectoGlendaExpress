@@ -31,6 +31,13 @@ class Paquetes_onlineModel extends Model
   protected $validationMessages = []; 
   protected $skipValidation = false; 
 
+  public function paquetes($id_usuario){
+    $result = $this->db->table('ordenes_online as oo')->select('oo.*')
+        ->where('id_usuario', $id_usuario)
+        ->get()->getResult();
+    return $result;
+    //var_dump($result);
+}
   /*
   public function getEntity($identity) { 
     return $this->where("identity=". $identity)->find(); 
