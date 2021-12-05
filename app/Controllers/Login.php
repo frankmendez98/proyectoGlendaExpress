@@ -1,6 +1,9 @@
 <?php
 namespace App\Controllers;
+use App\Controllers\BaseController;
 
+use CodeIgniter\Model;
+use App\Models\UtilsModel;
 class Login extends BaseController {
     public function __construct()
     {
@@ -34,7 +37,12 @@ class Login extends BaseController {
 
         $passwordEncrypt = $encrypter->encrypt($password);
         
-
+        if($this->utils->exist_where("usuario", array("usuario"=>$usuario, "password"=>$passwordEncrypt))){
+            echo "1";
+        }
+        else{
+            echo "0";
+        }
         //$prueba =  $encrypter->encrypt("hola");
         
         //echo $encrypter->decrypt($prueba);
