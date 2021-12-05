@@ -22,20 +22,31 @@
 <div id="wrapper">
     <div id="page-wrapper" class="contenedor_principal gray-bg container">
         <div class="wrapper wrapper-content animated fadeInRight">
-            <form action="" id="form_edit">
+            <form action="" id="form_add">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h5>Datos Orden Online</h5>
+                        <h5>Inicar Sesion</h5>
                     </div>
                     <div class="ibox-content">
                         <div class="row">
-                            
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">Nombre de Usuario</label>
+                                    <input type="text" class="form-control" placeholder="Ingrese nombre de usuario" name="usuario">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">Password</label>
+                                    <input type="text" class="form-control" name="password">
+                                </div>
+                            </div>
                         </div>
                         
                         <div class="row">
                             <div class="form-actions col-lg-12">
                                 <button type="submit" id="btn_add" name="btn_add" class="btn btn-success m-t-n-xs float-right"><i class="fa fa-upload"></i>
-                                    Actualizar Registro
+                                    Iniciar Sesion
                                 </button>
                             </div>
                         </div>
