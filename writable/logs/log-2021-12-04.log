@@ -1,0 +1,21 @@
+CRITICAL - 2021-12-04 10:12:30 --> Undefined variable: seguimientoEstados
+#0 /var/www/html/proyectoModulo6/app/Controllers/ApiTienda.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 54, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\ApiTienda->get_datos_seguimiento()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiTienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 10:14:30 --> Undefined variable: seguimientoEstados
+#0 /var/www/html/proyectoModulo6/app/Controllers/ApiTienda.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 54, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\ApiTienda->get_datos_seguimiento()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiTienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 10:14:50 --> Undefined variable: seguimientoEstados
+#0 /var/www/html/proyectoModulo6/app/Controllers/ApiTienda.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/p...', 54, Array)
+#1 /var/www/html/proyectoModulo6/system/CodeIgniter.php(824): App\Controllers\ApiTienda->get_datos_seguimiento()
+#2 /var/www/html/proyectoModulo6/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiTienda))
+#3 /var/www/html/proyectoModulo6/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/proyectoModulo6/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

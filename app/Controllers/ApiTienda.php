@@ -100,6 +100,10 @@ class ApiTienda extends ResourceController {
 		);
 		layout_api("tienda/dashboard",$data,$extras);
 	}
+	public function ver_factura(){
+		$paquetesOnline = $this->utils->get_detalle("ordenes_online", array("estado"=>1));
+		echo json_encode($paquetesOnline);
+	}
 	function create(){
 		$data = array(
             "titulo"=> "Categorias",
