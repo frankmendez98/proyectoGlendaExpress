@@ -16,7 +16,7 @@ $dat = uniqid();
     <div class="col-lg-6">
         <div class="form-group">
             <label for="">Estado</label>
-            <select name="estado" class="form-control select2" id="estado">
+            <select name="estado" class="form-control" id="estado">
                 <?php
                     foreach ($estados as $arrEstado) {
                         # code...
@@ -31,7 +31,7 @@ $dat = uniqid();
     <div class="col-lg-6">
         <div class="form-group">
             <label for="">Observacion</label>
-            <input type="text" class="form-control select2" name="observacion" id="observacion">
+            <input type="text" class="form-control" name="observacion" id="observacion">
         </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ $dat = uniqid();
 <script>
   $(document).ready(function(){
     $(".select2").select2({
-    dropdownParent: $("#productMo")
+    dropdownParent: $("#productMo");
     });
   })
 </script>
