@@ -14,6 +14,12 @@ class Paquetes_online extends BaseController {
 
 	public function index()
 	{
+		if(isset(session()->id_usuario)){
+		}
+		else{
+			return redirect()->to('login'); 
+
+		}
 		$paquetes = $this->paquetes->findAll();
 		//dd($clientes);
 		//var_dump($clientes);

@@ -9,6 +9,12 @@ class Paquetes extends BaseController {
     }
 	public function index()
 	{
+		if(isset(session()->id_usuario)){
+		}
+		else{
+			return redirect()->to('login'); 
+
+		}
 		$paquetes = $this->paquetes->findAll();
 
 		$data = array(

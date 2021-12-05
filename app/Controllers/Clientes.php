@@ -14,6 +14,12 @@ class Clientes extends BaseController {
 
 	public function index()
 	{
+		if(isset(session()->id_usuario)){
+		}
+		else{
+			return redirect()->to('login'); 
+
+		}
 		$clientes = $this->clientes->findAll();
 		//dd($clientes);
 		//var_dump($clientes);
