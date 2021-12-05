@@ -92,7 +92,7 @@ function save_data(){
 		success: function (data) {
 			notification(data.type,data.title,data.msg);
 			if (data.type == "success") {
-				//setTimeout("reload();", 1500);
+				setTimeout("reload();", 1500);
 			}
 		}
 	});
