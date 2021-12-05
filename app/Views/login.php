@@ -102,7 +102,7 @@
                             <div class="col-lg-12">
                                 <div class="form-group">
                                     <label for="">Password</label>
-                                    <input required type="text" class="form-control" placeholder="Ingrese password" name="password">
+                                    <input required type="password" class="form-control" placeholder="Ingrese password" name="password">
                                 </div>
                             </div>
                         </div>
