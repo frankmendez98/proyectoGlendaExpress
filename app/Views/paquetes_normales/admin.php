@@ -35,6 +35,7 @@
                                                     <th>ID</th>
                                                     <th style="width: 20%;">Envia</th>
                                                     <th style="width: 20%;">Recibe</th>
+                                                    <th style="width: 20%;">Direccion Entrega</th>
                                                     <th style="width: 20%;">Accion</th>
                                                 </tr>
                                             </thead>
@@ -47,6 +48,7 @@
                                                             <td><?=$arrDetalle->id;?></td>
                                                             <td><?=$arrDetalle->envia;?></td>
                                                             <td><?=$arrDetalle->recibe;?></td>
+                                                            <td><?=$arrDetalle->direccion_entrega;?></td>
                                                             <td>
                                                                 <div class="dropdown">
                                                                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
