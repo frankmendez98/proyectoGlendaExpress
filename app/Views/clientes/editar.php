@@ -41,7 +41,7 @@
                                     <div class="col-sm-4">
                                         <div class="form-group">
                                             <label for="">Telefono</label>
-                                            <input required type="text" name="telefono" value="<?=$encabezado->telefono;?>" class="form-control" placeholder="0000-0000">
+                                            <input required type="text" name="telefono" value="<?=$encabezado->telefono;?>" class="form-control tel" placeholder="0000-0000">
                                         </div>
                                     </div>
                                 </div>
