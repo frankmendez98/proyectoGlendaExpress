@@ -108,6 +108,9 @@ class ApiTienda extends ResourceController {
 		$paquetesOnline['id_usuario'] = $id_usuario;
 		echo json_encode($paquetesOnline);
 	}
+	public function ver_factura_detalle(){
+		
+	}
 	function create(){
 		$data = array(
             "titulo"=> "Categorias",
