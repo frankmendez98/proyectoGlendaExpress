@@ -6,7 +6,7 @@
                         <div class="dropdown profile-element">
                             <img alt="image" class="img_template" src="<?=base_url();?>/public/assets/img/logofav.jpg"/>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="block m-t-xs font-bold">Francisco Mendez</span>
+                                <span class="block m-t-xs font-bold"><?=session('usuario');?></span>
                                 <span class="text-muted text-xs block">Administrador <b class="caret"></b></span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">

@@ -14,17 +14,18 @@ class ApiTienda extends ResourceController {
 
     public function __construct()
     {
-
+		session();
         $this->clientes = new ClientesModel();
 		$this->paquetes_online = new Paquetes_onlineModel();
 		$this->seguimiento_estados = new SeguimientosEstadosModel();
 		$this->utils = new UtilsModel();
     }
 	public function get_datos_seguimiento(){
-
+		$id_usuario = session()->id_usuario;
+		//echo $id_usuario."#";
 		$clientes = $this->clientes->findAll();
-		$paquetesOnline = $this->paquetes_online->findAll();
-
+		$paquetesOnline = $this->paquetes_online->paquetes($id_usuario);
+		//var_dump($paquetesOnline);
 		foreach ($paquetesOnline as $keyP => $arrPaquete) {
 			# code...
 			$seguimientoEstados = $this->seguimiento_estados->findAll();
@@ -101,7 +102,10 @@ class ApiTienda extends ResourceController {
 		layout_api("tienda/dashboard",$data,$extras);
 	}
 	public function ver_factura(){
-		$paquetesOnline = $this->utils->get_detalle("ordenes_online", array("estado"=>1));
+		$id_usuario = session()->id_usuario;
+		//echo $id_usuario;
+		$paquetesOnline['detalle'] = $this->utils->get_detalle("ordenes_online", array("estado"=>1));
+		$paquetesOnline['id_usuario'] = $id_usuario;
 		echo json_encode($paquetesOnline);
 	}
 	function create(){

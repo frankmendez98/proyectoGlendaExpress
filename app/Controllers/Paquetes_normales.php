@@ -20,6 +20,12 @@ class Paquetes_normales extends BaseController {
 
 	public function index()
 	{
+		if(isset(session()->id_usuario)){
+		}
+		else{
+			return redirect()->to('login'); 
+
+		}
 		$paquetes = $this->paquetes_normales->findAll();
 		//dd($clientes);
 		//var_dump($clientes);

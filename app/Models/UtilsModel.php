@@ -71,6 +71,21 @@ class UtilsModel extends Model
         return $this->db->query($sql);
     }
 
+    function get_encabezado($tabla,$where){
+        if(empty($where)){
+            $detail = $this->db->table($tabla);
+        }
+        else{
+            $detail = $this->db->table($tabla)->where($where);
+
+        }
+    	if ($detail->countAllResults() > 0) {
+    		return $detail->get()->getRow();
+    	} else {
+    		return NULL;
+    	}
+    }
+
     function get_detalle($tabla,$where){
         if(empty($where)){
             $detail = $this->db->table($tabla);
