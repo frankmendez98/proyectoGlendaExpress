@@ -8,6 +8,7 @@ $(document).ready(function(){
         decimalPlaces: 2
     });
     $('.select2').select2();
+    $('.tel').mask('0000-0000');
 
     $(".datepicker").datepicker({
         format: 'yyyy-mm-dd',

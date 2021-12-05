@@ -54,6 +54,8 @@
 <script src="<?= base_url("public/assets/libs/numeric/jquery.numeric.js"); ?>"></script>
 <script src="<?=base_url('public/assets/js/utils.js');?>"></script>
 
+<script src="<?=base_url('public/assets/js/jquery.mask.min.js');?>"></script>
+
 <script src="<?=base_url("public/assets/libs/sweetalert2/sweetalert2.min.js")?>"></script>
 
 <script src="<?= base_url("public/assets/libs/dropify/dropify.min.js"); ?>"></script>
