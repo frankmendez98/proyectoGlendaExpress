@@ -67,8 +67,11 @@ class Paquetes extends BaseController {
 	}
 	function show($id){
 		$encabezado = $this->paquetes->find($id);
+		$categorias = $this->categorias->findAll();
+
 		$data = array(
 			"encabezado" => $encabezado,
+			"categorias" => $categorias,
             "titulo"=> "Paquetes",
 			"icono"=> "mdi mdi-format-list-bulleted",
 		);

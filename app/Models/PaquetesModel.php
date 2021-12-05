@@ -11,6 +11,7 @@ class PaquetesModel extends Model
   protected $useSoftDeletes = true; 
   protected $allowedFields = ['id', 
                               'nombre', 
+                              'id_categoria', 
                               'created_by',
                               'updated_by',
                               'deleted_by',]; 
