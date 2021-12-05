@@ -18,10 +18,8 @@ class Paquetes extends BaseController {
 
 		}
 		$paquetes = $this->paquetes->findAll();
-		$categorias = $this->categorias->findAll();
 		$data = array(
 			"paquetes" => $paquetes,
-			"categorias" => $categorias,
 			"titulo"=> "Paquetes",
 			"icono"=> "mdi mdi-account-group",
 			
@@ -35,7 +33,9 @@ class Paquetes extends BaseController {
 		layout("paquetes/admin",$data,$extras);
 	}
 	function create(){
+		$categorias = $this->categorias->findAll();
 		$data = array(
+			"categorias" => $categorias,
             "titulo"=> "Paquetes",
 			"icono"=> "mdi mdi-format-list-bulleted",
 		);

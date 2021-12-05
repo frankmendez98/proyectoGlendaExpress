@@ -33,6 +33,21 @@
                                             <input required type="text" class="form-control" name="nombre" placeholder="Ingrese nombre">
                                         </div>
                                     </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">Categoria</label>
+                                            <select name="id_categoria" class="select2 form-control" id="">
+                                                <?php
+                                                    foreach ($categorias as $arrCategoria) {
+                                                        # code...
+                                                        ?>
+                                                            <option value="<?=$arrCategoria->id;?>"><?=$arrCategoria->nombre;?></option>
+                                                        <?php
+                                                    }
+                                                ?>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
