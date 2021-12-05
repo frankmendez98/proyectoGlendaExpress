@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Libraries;
 
 /**
  * Encryption class for encrypt/decrypt that works between programming languages.

@@ -1,9 +1,7 @@
 $("#form_add").on('submit', function(e){
     e.preventDefault();
-    $(this).parsley().validate();
-    if ($(this).parsley().isValid()){
+    
         save_data();
-    }
 });
 
 function save_data(){
@@ -15,7 +13,7 @@ function save_data(){
     }
     $.ajax({
         type: 'POST',
-        url: base_url+'login/login',
+        url: base_url+'/login/login',
         cache: false,
         data: formdata ? formdata : form.serialize(),
         contentType: false,

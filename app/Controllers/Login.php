@@ -4,6 +4,9 @@ use App\Controllers\BaseController;
 
 use CodeIgniter\Model;
 use App\Models\UtilsModel;
+
+use App\Libraries\Encryption;
+
 class Login extends BaseController {
     public function __construct()
     {
@@ -16,7 +19,10 @@ class Login extends BaseController {
     }
 	public function index()
 	{
-		$data = array(
+        $encrypt = new Encryption();
+        echo $encrypt->encrypt("admin$", "1234");
+		
+        $data = array(
 			"titulo"=> "Clientes",
 			"icono"=> "mdi mdi-account-group",
 			
@@ -30,14 +36,22 @@ class Login extends BaseController {
 		echo view("login");
 	}
     public function login(){
-        $encrypter = \Config\Services::encrypter();
+        $encrypt = new Encryption();
 
         $usuario = $this->request->getPost('usuario');
 		$password = $this->request->getPost('password');
 
-        $passwordEncrypt = $encrypter->encrypt($password);
+        $usuarioBase = "";
+        $passwordBase = "";
+
+        $usuarioRow = $this->utils->get_encabezado("usuario", array("usuario"=> $usuario));
+        if(!is_null($usuarioRow)){
+            $usuarioBase = $usuarioRow->usuario;
+            $passwordBase = $encrypt->decrypt($usuarioRow->password, "1234");
+        }
+        //var_dump($usuarioRow);
         
-        if($this->utils->exist_where("usuario", array("usuario"=>$usuario, "password"=>$passwordEncrypt))){
+        if($usuario == $usuarioBase && $password == $passwordBase){
             echo "1";
         }
         else{
