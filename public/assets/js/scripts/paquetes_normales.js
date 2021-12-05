@@ -13,9 +13,14 @@ $(document).on("click",".agregar_paquete", function(event)
     var producto = $("#productoSelect option:selected").text();
 	var cadena = "";
     cadena += "<tr>";
-    cadena += "<td><input type='hidden' class='id_producto' value='"+idProducto+"'>"+producto+"</td><td><input class='form-control peso'></td><td><input readonly class='form-control peso_dolares'></td><td><input readonly class='form-control subtotal'></td>";
+    cadena += "<td><input type='hidden' class='id_producto' value='"+idProducto+"'>"+producto+"</td><td><input class='form-control decimal peso'></td><td><input readonly class='form-control peso_dolares'></td><td><input readonly class='form-control subtotal'></td>";
     cadena += "</tr>";
     $(".tbody_tr").append(cadena);
+
+    $(".decimal").numeric({
+        negative: false,
+        decimalPlaces: 2
+    });
 
     totales();
 });
@@ -50,11 +55,11 @@ $("#form_add").on('submit', function(e){
 });
 
 function save_data(){
-
     var array_json = [];
-
+    var contador = 0;
     //Procedemos a obtener el detalle de la orden
     $(".tbody_tr tr").each(function(index) {
+        contador++;
         var idProducto = ($(this).find('.id_producto').val());
         var peso = parseFloat($(this).find('.peso').val());
         var pesoDolares = parseFloat($(this).find('.peso_dolares').val());
@@ -75,27 +80,32 @@ function save_data(){
     var json_arr = '[' + array_json + ']';
 	$("#datosForm").val(json_arr);
     
-    let form = $("#form_add");
-	let formdata = false;
-	if (window.FormData) {
-		formdata = new FormData(form[0]);
-	}
-
-	$.ajax({
-		type: 'POST',
-		url: url+'store',
-		cache: false,
-		data: formdata ? formdata : form.serialize(),
-		contentType: false,
-		processData: false,
-		dataType: 'json',
-		success: function (data) {
-			notification(data.type,data.title,data.msg);
-			if (data.type == "success") {
-				setTimeout("reload();", 1500);
-			}
-		}
-	});
+    if(contador>0){
+        let form = $("#form_add");
+        let formdata = false;
+        if (window.FormData) {
+            formdata = new FormData(form[0]);
+        }
+    
+        $.ajax({
+            type: 'POST',
+            url: url+'store',
+            cache: false,
+            data: formdata ? formdata : form.serialize(),
+            contentType: false,
+            processData: false,
+            dataType: 'json',
+            success: function (data) {
+                notification(data.type,data.title,data.msg);
+                if (data.type == "success") {
+                    setTimeout("reload();", 1500);
+                }
+            }
+        });
+    }
+    else{
+        notification("Error","Alerta","Debe seleccionar al menos un producto");
+    }
 }
 
 function reload() {
