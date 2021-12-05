@@ -14,6 +14,7 @@ class ApiTienda extends ResourceController {
 
     public function __construct()
     {
+
 		session();
         $this->clientes = new ClientesModel();
 		$this->paquetes_online = new Paquetes_onlineModel();
@@ -109,7 +110,11 @@ class ApiTienda extends ResourceController {
 		echo json_encode($paquetesOnline);
 	}
 	public function ver_factura_detalle(){
-		
+		$id = $this->request->getPost("id");
+		//echo $id;
+		$paquetesOnline= $this->utils->get_encabezado("ordenes_online", array("id"=>$id));
+		//var_dump($paquetesOnline);
+		return json_encode($paquetesOnline);
 	}
 	function create(){
 		$data = array(
